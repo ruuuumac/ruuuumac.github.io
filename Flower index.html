@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+		
+		<!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- ウェブページのタイトルに使用されます。 -->
+		<title>Flower Room</title>
+		<!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+		<meta name="description" content="フラワーショップのサイトです">
+		<!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+		<meta name="format-detection" content="telephone=no">
+		<!-- ファビコンを設定しています。 -->
+		<link rel="shortcut icon" href="http://127.0.0.1:5500/img/favicon.ico">
+		<!-- reset.cssは、destyleを使用しています。 -->
+		<link rel="stylesheet" href="./Flower Room_files/destyle.css">
+		<!-- スタイルシート（css）を呼び出しています -->
+		<link rel="stylesheet" href="./Flower Room_files/style.css">
+	</head>
+    <body>
+     <!-- header -->  
+      <header class="header">
+        <h1 class="header_title">Flower Room</h1>
+        <nav>
+        <ul class="header_nav">
+            <li>
+                <a href="http://127.0.0.1:5500/index.html#pickup">PICKUP</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/index.html#shop">SHOP</a>
+            </li>
+        </ul>
+        </nav>
+      </header> 
+    <!-- /header -->
+     <main>
+        <!-- firstView -->
+        <section class="firstView">
+            <picture>
+                <source media="(max-width:560px)" srcset="/img/spring_sp.png">
+                <img class="firstView_img" src="./Flower Room_files/spring_pc.png" alt="花籠を持った女性">
+            </picture>
+        </section>
+        <!-- firstView -->
+        <!-- pickup -->
+         <section id="pickup" class="pickup">
+            <div class="u-sectionWrapper">
+                <h2 class="pickup_title u-sectionTitle">PICK UP</h2>
+                <div class="pickup_item">
+                    <div class="pickup_imgContainer">
+                        <img class="pickup_img" src="./Flower Room_files/hd-wallpaper.png" alt="窓と花の画像">
+                    </div>
+                    <div class="pickup_textContainer pickup_item--reverse">
+                        <h3 class="pickup_itemTitle">お花の定期便始めました</h3>
+                        <p class="u-sectionText">
+                            "届いたら花瓶に入れるだけ。"
+                            <br>
+                            "お手軽に花のある生活を始めてみませんか？"
+                        </p>
+                        <div class="pickup_btn">
+                            <a href="http://127.0.0.1:5500/index.html#" class="pickup_btnLink">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pickup_item pickup_item--reverse">
+                    <div class="pickup_imgContainer">
+                        <img class="pickup_img" src="./Flower Room_files/summer.png" alt="テーブルと花の画像">
+                    </div>
+                    <div class="pickup_textContainer">
+                        <h3 class="pickup_itemTitle">カフェのご案内</h3>
+                        <p class="u-sectionText">
+                             "店舗横にカフェを併設しています。"
+                            <br>
+                            "季節のお花を眺めながらゆったりとしたお時間をお過ごしください。"
+                        </p>
+                        <div class="pickup_btn">
+                            <a href="http://127.0.0.1:5500/index.html#" class="pickup_btnLink">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- /pick up -->
+        <!-- shop -->
+         <section id="shop" class="shop">
+            <div class="u-sectionWrapper">
+                <h2 class="u-sectionTitle">SHOP</h2>
+                <p class="shop_text">Flower Roomの店舗案内はこちらをご覧ください。</p>
+                <div class="shop_btn">
+                    <a href="http://127.0.0.1:5500/index.html#" class="shop_btn">ViewMore</a>
+                </div>
+            </div>
+         </section>
+         <!-- /shop -->
+     </main>
+     <!-- footer -->
+      <footer class="footer">
+        <small class="footer_copyright">Copy right</small>
+      </footer>
+      <!-- /footer -->
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
