@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+    <meta charset="utf-8" />
+    <!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- ウェブページのタイトルに使用されます。 -->
+    <title>cocoro雑貨店</title>
+    <!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+    <meta name="description" content="こころに優しいひとときを" />
+    <!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- ファビコンを設定しています。 -->
+    <link rel="icon" href="image/favicon.ico">
+    <!-- Google Fontsの「Zen Kaku Gothic New」を設定しています。 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <!-- reset.cssは、destyleを使用しています。 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+    />
+    <!-- スタイルシート（css）を呼び出しています -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+<!-- header -->
+ <header class="header u-warapper">
+    <a href="index.html">
+        <img  class="header__logo" src="image/logo.svg" alt="ロゴ画像">
+    </a>
+    <nav class="header__nav">
+        <ul class="header__list">
+           <li class="header__menu">
+            <a  class="header__menuLink" href="#">トップ</a>
+           </li> 
+            <li class="header__menu">
+            <a  class="header__menuLink" href="#">商品紹介</a>
+           </li> 
+           <li class="header__menu">
+            <a  class="header__menuLink" href="#">ブログ</a>
+           </li> 
+           <li class="header__menu">
+            <a  class="header__menuLink" href="#">お問い合わせ</a>
+           </li> 
+        </ul>
+    </nav>
+ </header>
+ <!-- /header -->
+<!-- first view -->
+ <section class="firstView">
+    <picture>
+       <source srcset="image/firstView-pc.png" media="(min-width: 769px)">
+       <img class="firstView__img" src="image/firstView-pc.png" alt="雑貨屋の外観">
+    </picture>
+    <h1 class="firstView__title">
+        <span class="firstView__title--bold">こころに優しいひとときを</span>
+        "COCORO_BLOG"
+    </h1>
+ </section>
+ <!-- /first view -->
+  <div class="container u-warapper">
+    <main class="main">
+<!-- left sidebar -->
+     <div class="sidebarLeft">
+    <!-- news -->
+     <div class="news">
+        <div class="news__top">
+            <div class="news__heading u-sectionHeading">
+                <h2 class="u-sectionTitle">最新のお知らせ</h2>
+                <p class="news__text">
+                    "心温まる雑貨やイベントの情報をぜひ一度チェックしてください。"
+                    <br>
+                    "皆様のお越しを心よりお待ちしております。"
+                </p>
+            </div>
+            <div class="news__contents">
+                <img class="news__img news__pickup" src="image/news-pickup.png" alt="キッチン">
+                <div class="news__detail">
+                    <p class="news__detailDate">2024.06.25</p>
+                    <h3 class="news__detailTitle">お客様感謝デーのお知らせ</h3>
+                    <p class="news__detailText">日頃のご愛顧に感謝して、6月30日にお客様感謝デーを開催します。特典やプレゼントもご用意しておりますので、ぜひお越しください。</p>
+                </div>
+            </div>
+        </div>
+        <div class="news__bottom">
+            <img class="news__img" src="image/news1.png" alt="机の上に置かれた洋服">
+             <div class="news__detail">
+                    <p class="news__detailDate">2024.06.20</p>
+                    <h3 class="news__detailTitle">夏季営業時間のご案内</h3>
+                    <p class="news__detailText">夏季期間中の営業時間が変更になります。7月1日から8月31日まで、平日は10：00～18：00、土日は11：00～17：00となります。</p>
+                </div>
+        </div>
+        <div class="news__item">
+              <img class="news__img" src="image/news2.png" alt="複数の蝋燭">
+              <div class="news__detail">
+                <p class="news__detailDate">2024.06.15</p>
+                <h3 class="news__detailTitle">ワークショップ開催のお知らせ</h3>
+                <p class="news__detailText">6月20日に手作りキャンドルのワークショップを開催します。初心者の方も大歓迎です。ぜひご参加ください。</p>
+              </div>
+            </div>
+        </div>
+     </section>
+     <!-- /news -->
+    <!-- special -->
+     <section class="special">
+        <div class="special__top">
+            <div class="special__heading u-sectionHeading">
+                <h2 class="u-sectionTitle">おすすめの雑貨特集</h2>
+                <p class="special__text">
+                    "こころに優しい雑貨たちを厳選してご紹介します。"
+                    <br>
+                    "新しいお気に入りを見つけてください。"
+                </p>
+            </div>
+            <div class="special__contents">
+                <img class="special__img special__pickup" src="image/special-pickup.png" alt="レンガ壁の部屋">
+                <div class="special__detail">
+                    <p class="special__detailDate">2024.6.10</p>
+                    <h3 class="special__detailTitle">新作アクセサリーのご紹介</h3>
+                    <p class="special__detailText">手作りアクセサリーが入荷しました。自然のモチーフを取り入れたデザインで、こころに優しいひとときをお届けします。</p>
+                </div>
+            </div>
+        </div>
+        <div class="special__bottom">
+            <div class="special__item">
+                <img class="special__img" src="image/special1.png" alt="包装された箱">
+                <div class="speciall__detail">
+                    <p class="special__detailDate">2024.6.05</p>
+                    <h3 class="special__detailTitle">サマーセールのお知らせ</h3>
+                    <p class="special__detailText">6月10日からサマーセールを開催いたします。店内の全商品が20%オフになります。ぜひこの機会にお立ち寄りください。</p>
+                </div>
+            </div>
+            <div class="special__item">
+                <img class="special__img" src="image/special2.png" alt="雑貨が置かれた机">
+                <div class="speciall__detail">
+                    <p class="special__detailDate">2024.6.01</p>
+                    <h3 class="special__detailTitle">新商品入荷のお知らせ</h3>
+                    <p class="special__detailText">新しいアイテムが入荷しました。優しい色合いの陶器や手作りのキャンドルなど、心温まる雑貨をぜひご覧ください</p>
+                </div>
+            </div>
+        </div>
+        <p class="special__link">
+            <a class="special__linkText" href="#">
+                "その他の記事はこちら"
+                <img class="special__linkImg" src="image/arrow.svg" alt="右矢印">
+            </a>
+        </p>
+     </section>
+       <!-- /special -->
+     </div>
+     <!-- /left sidebar -->
+    </main>
+    <aside class="sidebar">
+      <!-- category -->  
+       <section class="category">
+        <div class="category__contents">
+            <div class="category__top">
+                <div class="u-sectionHeading">
+                    <h2 class="u-sectionTitle">商品カテゴリ</h2>
+                    <p class="category__text">心を込めた商品を各カテゴリでご紹介</p>
+                </div>
+                <p class="category__link">
+                    <a class="category__linkText" href="#">
+                        "こころ雑貨の商品をすべて見る"
+                        <img class="category__linkText" src="image/arrow.svg" alt="右矢印">
+                    </a>
+                </p>
+            </div>
+            <ul class="category__list">
+                <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category1.png" alt="キッチン用品">
+                        <p class="category__btnText">食器・キッチン用品</p>
+                    </a>
+                </li>
+                <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category2.png" alt="アクセサリー">
+                        <p class="category__btnText">アクセサリー</p>
+                    </a>
+                </li>
+                <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category3.png" alt="家具">
+                        <p class="category__btnText">インテリア雑貨</p>
+                    </a>
+                </li>
+                 <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category4.png" alt="文房具">
+                        <p class="category__btnText">ステーショナリー</p>
+                    </a>
+                </li>
+                <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category5.png" alt="サボテンとジョーロ">
+                        <p class="category__btnText">ガーデニング用品</p>
+                    </a>
+                </li>
+                <li class="category__btn">
+                    <a class="category__btnLink" href="#">
+                        <img class="category__btnImg" src="image/category6.png" alt="雑貨">
+                        <p class="category__btnText">その他雑貨</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="category__search">
+            <input type="search" class="category__searchInput" id="search" name="q">
+            <button class="category__searchBtn">検索</button>
+        </div>
+        <img class="category__img" src="image/category-search.png" alt="セール">
+       </section>
+     <!-- /category -->  
+     <!-- popularity -->
+      <section class="popularity">
+        <div class="u-sectionHeading">
+            <h2 class="u-sectionTitle">人気記事</h2>
+            <p class="popularity__link">
+              <a class="popularity__linkText" href="#">
+                "すべての記事を見る"
+                <img class="popularity__linkImg" src="image/arrow.svg" alt="右矢印">
+              </a>  
+            </p>
+        </div>
+        <dl class="popularity__list">
+            <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.06.12</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">新作コレクション紹介</a>
+                </dd>
+            </div>
+             <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.06.07</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">人気アクセサリーベスト10</a>
+                </dd>
+            </div>
+            <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.06.02</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">キッチン雑貨コレクション</a>
+                </dd>
+            </div>
+             <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.05.30</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">ガーデニング用品特集</a>
+                </dd>
+            </div>
+            <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.05.25</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">ワークショップ体験</a>
+                </dd>
+            </div>
+             <div class="popularity__item">
+                <dt class="popularity__itemDate">
+                    <a href="#">2024.05.20</a>
+                </dt>
+                <dd class="popularity__itemText">
+                    <a href="#">インテリアアイデア10選</a>
+                </dd>
+            </div>
+        </dl>
+      </section>
+      <!-- /popularity -->
+    　<!-- post -->
+    <section class="post">
+        <div class="u-sectionHeading">
+            <h2 class="u-sectionTitle post__title">
+                <img class="post__linkImg" src="image/facebook.png" alt="facebook">
+                "投稿記事"
+            </h2>
+            <p class="post__link">
+                <a class="post__linkText" href="#">
+                    "全てのポストをみる"
+                    <img class="post__linkImg" src="image/arrow.svg" alt="右矢印">
+                </a>
+            </p>
+        </div>
+        
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%3Fref%3Dembed_page&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+   <body dir="Itr" class="plugin chrome webkit win x1 Locale ja JP">
+    <div class="li">
+        <a href="https://www.facebook.com/facebook?ref=embed_page" target="_blank" id="u_0_0_fP"></a>
+        <div id="u 0 1 V+">
+            <div class>
+                <div class=" 2p3a" style="min-width: 180px; width: 340px;">
+                    <div class="_2lqh" style="max-height: 130px;">
+                        <div style="height: 130px;" class="_1drm _1ds3" id="u_0_2_pN">
+                            <div class="_46-h _2zfr" style="width:340px;height:130px;">
+                                <img class="_46-i img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/513094825_10164819146606729_8444440187994304660_n.jpg?stp=dst-jpg_s350x350_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=4cb600&amp;_nc_ohc=lZVRUXm1JasQ7kNvwEv-Fv6&amp;_nc_oc=Admp6v5ssA2aAR0DUNhzBZWSPGbJN83e-Nd_0y7lSj_s4apAyhBqPHUOsJfyIL5Ue5U&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;edm=ADwHzz8EAAAA&amp;_nc_gid=ykYcQ7f2MwP_aDZTRQKhOQ&amp;oh=00_Afd114LOo4K2E1IyaAuGDgrUxGBcgz50JPxDUbP6YOOASg&amp;oe=690963BD" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/513094825_10164819146606729_8444440187994304660_n.jpg?stp=dst-jpg_s350x350_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=4cb600&amp;_nc_ohc=lZVRUXm1JasQ7kNvwEv-Fv6&amp;_nc_oc=Admp6v5ssA2aAR0DUNhzBZWSPGbJN83e-Nd_0y7lSj_s4apAyhBqPHUOsJfyIL5Ue5U&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;edm=ADwHzz8EAAAA&amp;_nc_gid=ykYcQ7f2MwP_aDZTRQKhOQ&amp;oh=00_Afd114LOo4K2E1IyaAuGDgrUxGBcgz50JPxDUbP6YOOASg&amp;oe=690963BD" style="left:-5px; top:-12px;" alt="「Live. Laugh. Love. Like. Wow.」" width="350" height="154" caption="「Live. Laugh. Love. Like. Wow.」">
+                                </div>
+                                <div class="_1dro _2ph- clearfix">
+                                    <div class="_2zfs"></div>
+                                    <a class="_3-8_ lfloat" href="https://www.facebook.com/20531316728?ref=embed_page" target="_blank"></a>
+                                    <a href="/stories/101539208684775/?source=EMBED_PAGE&amp;ref=embed_page" aria-label="閲覧していないストーリーズを再生" target="_blank" id="u_0_3_ZT">
+                                        <div class="_38vo">
+                                            <!-- react-mount-point-unstable -->
+                                            <div>
+                                                <img class="_s0 _4ooo _6y97 _6_ut _5xib _5sq7 _44ma _rw img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-1/380700650_10162533193146729_2379134611963304810_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=f907e8&amp;_nc_ohc=OoO09awFBjcQ7kNvwEqNmKC&amp;_nc_oc=Adnb_fSHD3fzvyczqZ97BVcdQ2al_oVhdPvSgY0wOCNed1_WF9EAwE29_Lp3IMbW97g&amp;_nc_zt=24&amp;_nc_ht=scontent.fitm4-1.fna&amp;edm=ADwHzz8EAAAA&amp;_nc_gid=ykYcQ7f2MwP_aDZTRQKhOQ&amp;oh=00_AffzGRX16JaMWqgEOe7G_B-DbJgkykgZOUQD2vFH2zqNrw&amp;oe=69095E0E" alt="" aria-label="Facebook" role="img">
+                                                </div>
+                                                </div>
+                                                </a>
+                                                <div class="lfloat">
+                                                    <div>
+                                                        <a style="max-width: 240px;" class="_1drp _5lv6" title="Facebook" href="https://www.facebook.com/20531316728?ref=embed_page" target="_blank">Facebook</a>
+                                                        <span class="_56_f _5dzy _5d-0 _3twv _5d-3" aria-label="認証済みページ"></span>
+                                                        </div>
+                                                        <div class="_1drq" style="max-width: 260px;">155,369,945 フォロワー</div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="_1z7u _2ph-">
+                                                            <span class="lfloat">
+                                                                <div class="_4o5p">
+                                                                    <div class="pluginConnectButton" id="u_0_5_P/">
+                                                                        <a role="button" class="_42ft _4jy0 _opc pluginConnectButtonDisconnected _4jy3 _517h _51sy" title="" href="https://www.facebook.com/20531316728?ref=embed_page" target="_blank">
+                                                                            <i class="_3-8_ img sp_5mhmaH8rzNW sx_2fcf18"></i>
+                                                                            "ページをフォロー"
+                                                                            </a>
+                                                                            <a role="button" class="_42ft _4jy0 _opc _opd pluginConnectButtonConnected hidden_elem _4jy3 _517h _51sy" title="" href="https://www.facebook.com/20531316728?ref=embed_page" target="_blank">
+                                                                                <i class="_3-8_ img sp_5mhmaH8rzNW sx_ccb777"></i>
+                                                                                "フォロー中"
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </span>
+                                                                    <a class="_29bd rfloat _4o5q" href="/sharer/sharer.php?app_id=776730922422337&amp;u=https%3A%2F%2Fwww.facebook.com%2F20531316728&amp;display=popup&amp;ref=embed_page&amp;src=page" target="_blank" id="u_0_6_Mq">
+                                                                        <button value="1" class="_42ft _4jy0 _5gyi _ew1 _4jy3 _517h _51sy" type="submit">
+                                                                            <i class="_3-8_ img sp_5mhmaH8rzNW sx_1f8e0b"></i>
+                                                                            "シェアする"
+                                                                            </button>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div style="max-height: 369px; border-bottom-width: 0.666667px;" class="2lqg" id="u 0 7 zM">
+                                                                <div>
+                                                                <div class=" 2hkj">
+                                                                    <div class>
+                                                                        <div class=" 10b4" style="max-height: 369px;">
+                                                                            <div class=" 2ph-">
+                                                                                <div class=" 10b6" id="u 1 1j Xe">
+                                                                                    <div class=" 5pcb 1 lk 5tmf 3-8x" data-testid="newsFeedStream">
+                                                                                        <div role="feed">
+                                                                                          <div class="_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8" data-ft="{&quot;fbfeed_location&quot;:50}" data-fte="1" data-ftr="1" data-xt="AZWncMVT0yYQkFobnvTUC7NBPNqY-ad3shKdPLVyBjpk6D27I65VHYQIJcXWgHdWkUCRIg3Wi_79YwFp7ni5ICXMpDqeB06biIcmdSII59uX1nwfeMUIDaoaamnPfxCTMxYdw5u6oddrWTxINUV66UrhR9EcermsXy1Ees73q3jozG57gzvLBaagUm78IHgat_nqViVGuOsVzbK9EaDb1en-oJyaHQ8q9r83LcoE3mLMy4jf6GqJ_R8XlFRmqF4AUQAoqoFMB42XafhQqZKcaAvez1AE-b9OKByILJjzo5jHk1KcA_fbDwn9tnMqszNEXu_z1FQ0-Aj8xXjD_0477A0piJL7KdyLCHRf6L6Vpp5BCCmkIi_3d0iRGWw9xaGxIzbYrEP8xfOkyUsO1S85w8iPSWkACKAeoBFAyolSHG5ACMva0R0LgVHlSmqbGRc_JMNARPOcpGWhW2OKw13IvIttbO4GkSb428wEHNZGGgpeZBy1lJGXkNpj8YoX1rHnyypdwX3xe0TlE4tkGlWA1TmKFGdlFAJVzes_k0OlkSvlP_JpWCIj6nAw2tIu4Wvre62UcDL-8zA2wr7n3yL0LA6DosgKCX5_hS9pdJZRGVpv8RhRBQ6I4wTI6fx2F4BM0zviYlzfggBBfNadf1KytlupBX9zfRycI0AL4sMOWfXUIIwVZkIXe6Ujy267IFOUgFvmRg0dbG_oxF-axAkvmwZNgn4_KJlSdsEdUeI1aCRT0fFQgcFlMfsj8G3vhTHrU61_R7QrBeZhQk6qQ0QJMbD08DC-t_EQS6Bv7WAOspfUHUiK0_ast7DsQBnMbPyuaGxXPhVBGThK1N8CBSHEyAbNIf7Yh5EA5xTsrlJ0ufc9sgr4MSdEPpa93FaqwaOVkxJ_B7r2O6TvssUxzqwkwuF7JIPTQQlsAZElhv-d-wjqy6RyL0Lmzxw61bv8xgBr5exwgrchiN-x8n_7ZrxYF_GUciItRj0ifYyITAQAtHUoPkCOOQFOlD0zimiScQMW281xJqbXHNwKp8l4L-zUMfVCJsvdJizks_TGBqKf8X542BcPsMoMjM_0I47qqm8XaEKscL8DxoFWsicxICwNA3sTeFctL7YiioC4djR5qomF73jRhCK39hCTJm9AWIrtf0hQB2SH5gX0hhAhpwkb41QxnRdnk_GCW5nvcm41FlLTrvQp5Ar0VejuaXqH9yt7hl3YSXDnmJhL21mxB92Om0K0CtRZDgxZ4xB1gHg9s_ZW3R6GyXQ6UgN9133JMnhZHuIat5fFSaBc0P6HfWNLVpAQ6MaOWtT8eY9WRybspOeYoPvhrrvlW9s5Y2I-9geiVW5W6KsmjtGRwrOI5JgCdH86C8VRRnqfV2sWBPIrA294cTTy8PzZzwUBeD6qAwZhJGbL289QaNInTkbPUskZ2MOV0vvU_IQOYz2A0ZWkxm29RZ2s87oPdjsf2NilVDgpUkKwoVthIK9G9J7tGxrT5uxgaXzQDEXuLSy9_7Zk2iDaY2SyK9hcNCluLjLFw6tpcRMhoTCjK2MCtpN5hyufVBifiyL2rHfwt5CD-oXHsNkj58yozZXIP0A0Iaesc3GXgIbgjmS2fLY20UnugD7sF8VhRV6ApYZ6f9Yhcl8hj5ROHKoz6upKZUtn9v8GQFFNHaQkZfwuG-84GwcFAtBlIz32IRH65U2kFQ34IVdczJF5grg5OkITDeYrZSDkTL8xWuuAGijAD4F5SzznOLWPE7TWSrkVuB7QXzht7HL5Fqvv_gtDp6OP-92xH4muIWXw61VwM-iUwNbwIqs-jbp6uNFfXMVGzpo-jug-UzGfWwAi3jd6uReY8O4B0XgLd9M8E3PIxvUMoMYe0-EkZyGG5Cxa64e5oZbOf27_W4axk-uE2gHJQvcFlHcGIsHpuCtzPNJvp85_UYj1X7SrMiJIBJQWvKiMX4lMAfwtv0d_WjRBXdebCMM9MZXOpnKFUp6hQur9hYibpO4xac-T5XvAmCys8EIgDBuird5mNhgKx_rB4Tw2uLQiftQfrwp-zu7ZxDUd9ewOpr2vtw3tquKNAgkVYryX0pMlxuBJZUNpy7K0TOgxNmpOZ7ttgX6IhA7nqURr4bxDBF_2sz3CUF0yp5hk45FBrrs58VRY2-_Dmq21PpsJB1pak5ZVF21giNJxiOxYHgrRkYK37HNZolPh2EMLEs24vJUYpsJ5nF9N7OwKiA" data-xt-vimp="{&quot;pixel_in_percentage&quot;:0,&quot;duration_in_ms&quot;:1,&quot;client_track_subsequent_impression&quot;:true,&quot;subsequent_gap_in_ms&quot;:60000,&quot;log_initial_nonviewable&quot;:false,&quot;should_batch&quot;:true,&quot;require_horizontally_onscreen&quot;:false,&quot;encrypt_data_xt&quot;:true,&quot;signal_mode_for_ss&quot;:false,&quot;vital_mode_for_ss&quot;:false,&quot;should_not_delay_impression&quot;:true,&quot;should_log_endpoint_info&quot;:true,&quot;log_viewability_events_for_infra_validation&quot;:false,&quot;log_visibility_hidden_when_browser_inactive&quot;:true,&quot;count_blue_bar_height&quot;:true,&quot;detect_occlusion&quot;:false,&quot;should_not_log_on_occlusion&quot;:true,&quot;is_rhc&quot;:false}" id="u_1_0_oC">
+                                                                                            <div class="_3ccb" data-ft="{&quot;tn&quot;:&quot;-R&quot;}" data-gt="{&quot;type&quot;:&quot;click2canvas&quot;,&quot;fbsource&quot;:703,&quot;ref&quot;:&quot;nf_generic&quot;}" id="u_1_5_se">
+                                                                                                <div></div>
+                                                                                                <div class="_5pcr userContentWrapper" style="" data-ft="{&quot;tn&quot;:&quot;-R&quot;}">
+                                                                                                    <div class="_1dwg _1w_m _q7o" data-visualcompletion="ignore-dynamic">
+                                                                                                        <div class="_3x-2 _2p_a" data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                            <div data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                <div class="mtm">
+                                                                                                                    <div id="u_1_d_Z6" class="_6m2 _1zpr clearfix _dcs _4_w4 _41u- _6m8 _59ap _64lx _3eqz _20pq _3eqw _2rk1" style="width:280px;" data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                        <div class="clearfix _2r3x">
+                                                                                                                            <div class="lfloat _ohe">
+                                                                                                                                <span class="_3m6-">
+                                                                                                                                    <div class="_9_q" data-ft="{&quot;tn&quot;:&quot;F&quot;}">
+                                                                                                                                        <div class="_55ra" style="max-width:497px">
+                                                                                                                                            <div>
+                                                                                                                                                <div class="_1c_u _j_t _mso" id="u_1_11_gF">
+                                                                                                                                                    <div class="_53j5" style="height:497px;width:280px;" tabindex="0" id="u_1_12_NU">
+                                                                                                                                                        <video muted="1" height="497" width="280" preload="metadata" style="" class="_ox1 _21y0" data-video-width="280" data-video-height="497" id="u_1_13_C7"></video>
+                                                                                                                                                        <div class="_3fnx _1jto _4x6d _3htz" id="u_1_14_C1">
+                                                                                                                                                            <img class="_1p6f _1p6g _3fnw _3fny img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t15.5256-10/567606243_806757825431317_478593175002467943_n.jpg?stp=dst-jpg_p280x280_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=40d385&amp;_nc_ohc=_FoE1J9Hx5YQ7kNvwHkC7m6&amp;_nc_oc=Adk1iFmgFkxZCMXIMQ6iyBVljTDSYFu3CpDIkKM4VsLtPKyZidR7lPzhDTb2SpnCLxo&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfdLyQ3uJo5_OWix6l_kiw5Ux7yq3LaDeHwIrUZz6IIO_Q&amp;oe=69095E82" alt="" height="497" width="280">
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="_npo hidden_elem _3htz" id="u_1_15_pp">
+                                                                                                                                                                <div class="_3drf"></div>
+                                                                                                                                                                <div class="_3x62">
+                                                                                                                                                                    <div class="_63rn">
+                                                                                                                                                                        <div class="_63rm">
+                                                                                                                                                                            <div class="_iij">ビデオの再生に問題が発生しているようです。その場合はブラウザーを再起動してください。</div>
+                                                                                                                                                                            <div class="_iir">閉じる</div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="_4ubd _170l _27db _3htz" id="u_1_16_WJ"></div>
+                                                                                                                                                                <div class="_18xu _9omd _3htz">
+                                                                                                                                                                    <div class="_5l7x _360f _167h hidden_elem" id="u_1_u_9o"></div>
+                                                                                                                                                                    <input aria-label="動画を再生" class="_530-" type="button" id="u_1_t_pk">
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="_2gn_ _5sjk _1jto _3htz">
+                                                                                                                                                                    <div class="_2go0">
+                                                                                                                                                                        <div class="_3i0o _50f7">
+                                                                                                                                                                            <span id="u_1_17_nP">この動画は利用できません</span>
+                                                                                                                                                                            </div>
+                                                                                                                                                                            <div class="_3i0p">
+                                                                                                                                                                                <span id="u_1_18_FW">この動画は再生できませんでした。</span>
+                                                                                                                                                                                </div>
+                                                                                                                                                                                <div class="_2go6">
+                                                                                                                                                                                    <div class="fsm fwn fcg">
+                                                                                                                                                                                        <a href="https://www.facebook.com/help/396404120401278/list?ref=embed_page" target="_blank" id="u_1_19_44">
+                                                                                                                                                                                            <span class="_50f7">詳しくはこちら</span>
+                                                                                                                                                                                        </a>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="_2i84"></div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                    <div data-ft="{&quot;tn&quot;:&quot;H&quot;}" class="_3ekx _29_4"></div>
+                                                                                                                                                </span>
+                                                                                                                                            </div>
+                                                                                                                                            <div class="_42ef">
+                                                                                                                                                <span class="_3c21"></span>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div>
+                                                                                                                            <div class="clearfix l_c3pyo2v0u _5eit _4d-l">
+                                                                                                                                <div class="_5pb8 _29h _303">
+                                                                                                                                    <a href="/stories/101539208684775/?source=EMBED_POST&amp;ref=embed_page" aria-label="閲覧していないストーリーズを再生" target="_blank" id="u_1_1a_RD">
+                                                                                                                                        <div class="_38vo">
+                                                                                                                                            <noscript id="u_1_1b_Y5"></noscript>
+                                                                                                                                            <div>
+                                                                                                                                                <img class="_s0 _4ooo _6y97 _6_ut _5xib _5sq7 _44ma _rw img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-1/380700650_10162533193146729_2379134611963304810_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=f907e8&amp;_nc_ohc=OoO09awFBjcQ7kNvwEqNmKC&amp;_nc_oc=Adnb_fSHD3fzvyczqZ97BVcdQ2al_oVhdPvSgY0wOCNed1_WF9EAwE29_Lp3IMbW97g&amp;_nc_zt=24&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcAbt6x7OG_rwenikWCtdYDwwy6Baz4k786FytNT1R5Hw&amp;oe=69095E0E" alt="" aria-label="Facebook" role="img">
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </a>
+                                                                                                                                </div>
+                                                                                                                            <div class="_302">
+                                                                                                                                <span>
+                                                                                                                                    <a href="/reel/1707746869922586/?ref=embed_page" target="_blank">
+                                                                                                                                        <i class="img sp_gOPKfOvAT23 sx_49ac64"></i>
+                                                                                                                                        </a>
+                                                                                                                                    </span>
+                                                                                                                                </div>
+                                                                                                                                <div class="_3dp _29k">
+                                                                                                                                    <div>
+                                                                                                                                        <div class="_6a">
+                                                                                                                                            <div class="_6a _6b" style="height:40px"></div>
+                                                                                                                                            <div class="_6a _6b">
+                                                                                                                                                <a href="https://www.facebook.com/facebook?ref=embed_page" target="_blank">
+                                                                                                                                                    <div class="_2_79 _50f4 _50f7">
+                                                                                                                                                        "Facebook"
+                                                                                                                                                        <span class="_56_f _5dzy _5dz_ _3twv" aria-label="認証済みプロフィール"></span>
+                                                                                                                                                    </div>
+                                                                                                                                                </a>
+                                                                                                                                                <a href="/reel/1707746869922586/?ref=embed_page" target="_blank" class="_39g5">
+                                                                                                                                                    <abbr data-utime="1761771598" data-tooltip-content="2025年10月29日水曜日 13:59" data-hover="tooltip" class="timestamp">
+                                                                                                                                                        <span class="timestampContent">17時間前</span>
+                                                                                                                                                    </abbr>
+                                                                                                                                                </a>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                             </div>
+                                                                                                <div data-testid="post_message" class="_5pbx userContent _3576" data-ft="{&quot;tn&quot;:&quot;K&quot;}">
+                                                                                                    <p>
+                                                                                                        "Making decorations of people who view stories but don’t react to them (you know who you are)"
+                                                                                                        <span class="_5mfr">
+                                                                                                            <span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/td7/1/16/1f47b.png&quot;)">👻</span>
+                                                                                                         </span>
+                                                                                                        </p>
+                                                                                                    <p>
+                                                                                                        " Video by "
+                                                                                                        <a title="Jag Lever (I Live)" class="profileLink" href="https://www.facebook.com/jaglever?fref=mentions&amp;ref=embed_page" target="_blank">Jag Lever (I Live)</a>
+                                                                                                        </p>
+                                                                                                        <p> Music by The Hit Crew</p>
+                                                                                                    </div>
+                                                                                                <div></div>
+                                                                                            </div>
+                                                                                            </div>
+                                                                                            <div class="_2162 _2_1h _rb9" id="u_1_q_Ng">
+                                                                                                <table class="uiGrid _51mz" cellspacing="0" cellpadding="0">
+                                                                                                    <tbody>
+                                                                                                        <tr class="_51mx">
+                                                                                                            <td class="_51m- prl _435r">
+                                                                                                                <span tabindex="0" role="button" class="embeddedLikeButton" id="u_1_r_/W">
+                                                                                                                    <div class="_2pi4 _36iq _4lk2 _3xre _2165" title="「いいね！」">
+                                                                                                                        <i class="_3-8_ _2yf7 _5jp _2166 img sp_gOPKfOvAT23 sx_7f8186"></i>
+                                                                                                                        <i class="_3-8_ _2yf7 _3wdt _2166 img sp_gOPKfOvAT23 sx_b0ff51"></i>
+                                                                                                                        "6,490"
+                                                                                                                    </div>
+                                                                                                                </span>
+                                                                                                            </td>
+                                                                                                        <td class="_51m- prl _435r">
+                                                                                                            <a class="_29bd" href="https://www.facebook.com/reel/1707746869922586/?ref=embed_page" target="_blank">
+                                                                                                                <div class="_2pi4 _36iq _4lk2 _3xre _1p4p" title="コメントする">
+                                                                                                                    <i class="_3-8_ _2yf7 _5jp _4mlr img sp_gOPKfOvAT23 sx_84bd5e"></i>
+                                                                                                                    <i class="_3-8_ _2yf7 _3wdt _4mlr img sp_gOPKfOvAT23 sx_eaa25d"></i>
+                                                                                                                    "1,965"
+                                                                                                                </div>
+                                                                                                            </a>
+                                                                                                        </td><td class="_51m- prl _51mw">
+                                                                                                            <a class="_29bd" href="/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Freel%2F1707746869922586%2F&amp;display=popup&amp;ref=embed_page&amp;src=post" target="_blank" id="u_1_s_IW">
+                                                                                                                <div class="_2pi4 _36iq _4lk2 _3xre _50sk" title="シェアする">
+                                                                                                                    <i class="_3-8_ _2yf7 _5jp _2167 img sp_gOPKfOvAT23 sx_465ad2"></i>
+                                                                                                                    <i class="_3-8_ _2yf7 _3wdt _2167 img sp_gOPKfOvAT23 sx_47fb78"></i>
+                                                                                                                    "532"
+                                                                                                                </div>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                      </tr>
+                                                                                                   </tbody>
+                                                                                                </table>
+                                                                                              </div>
+                                                                                             </div>
+                                                                                            </div>
+                                                                                         </div>  
+                                                                                           <div class="_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8" data-ft="{&quot;fbfeed_location&quot;:50}" data-fte="1" data-ftr="1" data-xt="AZVBCs4-uYQkhZcZnomMM1td0HvpNkwfwl-p6nuFmX49OHInOafHDlN4MgKJ6XeEeK8zmxEI-qNNkZrWtAFJb8tzfI8rendfZcyVO5wOa2M1mGkq4Nw5F7cnJ5pqJgDizW6RCgDjn36rrvilNI1BMmBog1S8NdPegFrY8cZPc5mHYLGI2QISckIw80l-D0ogllkDToHWnPFCFy9vwMFgRh-bJOLEdZhlhdz6cTiHaBcIgXiKmqpw0LPeP-5R83xfAIwk9lRyi8tpNhqkExQ_ayW_QD13hN1PhBw7v4kfBQZxkFYBJNNU4PSyt4jaKxDsUhEoLYLlk_0XpNRq4vUu3DEORzB1ONcUnYumK8rC-9riTEb4s-IDwFWrvFAUWiV1bYXxLwkl9AEhiXVH5MsGJ8TrpKzulXtQGbbX7vCRfyWhmGGAUqjYZIG7kw9l-l87jeQcrRfb0k2mu4MKHkgOYa0dIrQ4l_j83vXHmrMXdUDd2vk_evtGj-neZt2swKzfasYok9uxa8sLp9TyP76qrQMOAL75kG1z9VFrhjeAXaI7amtth8IL7GMe71Pu38vz3Ox-EeV4Z8g0wR_pcPEElTP-dg2o93GtGZ21I1zljz0zfOt46HR-Hb14SFW9lbW9kRX9h4r783rqkDB5mIcHOXJUSSJCSxvPKa--6qP-aOG1P9ymd8eZ8T9p4GVK8PQAcYvvS_gix2ic_CT0XN3pk9YFLNXe_nqlaDe5q3vo3asv3cdSGHgeA3Da-F8K2tLunEYr896yJoP1bCNoV-RjDKha9WKvJoQdDpK_bNUOKy-p6aIxR6kjLkoCCEDTXpZpp-Z91Fx5VQAjDDp2aTlR-EGKtN5XRszL17iW7UWPmLMjFXGB7koo8ViarrE3qH2LfFXLFyiQVLY_sFmZOzSHoIlqRCjIBD-C_682vr03bYKYJ-wapc8EGCchRa4MMWbaeveo8fKoABgAtaUhMq6YNSbUMmUoNT3aIsUFfqOuimIkzthVTP1SuS4spXuEuHvlbuG5WDdQru3H6PqUCKj8WPRlnF3wNl8NhjZ8QNRTggZI_oNC-W-dLqAtz0oWjd-FJIn0hj7w_DN3dHOgLfX5iAow8qdrZK96SAtPnVtjLGxjCu3gz2L_M3FFtWcuUfsPojxVgePCOx_LEnc4Bt4e0cKoZs6NiOkqP3BwM6YfrOA6tOgNmwsbp1M78WIZGNp6e4jaWX9hBPYwyDpzSiWeQjUkO7oHj_Sm36gCGvd4juakravt16QmzE3j80VggKCuqY1MzqjQFcKGmrafFkeAHivCimb0lbhVztnUtD3gAieA1X7TJ9Wj56aMmuAxe5xBcFErZYdUqW5chzjQUMYngb1hwcI1ETxhkVcVZSOD-xkYFg_ODjPwFwyYZOWNJHNhdchogAkHFc5j7ivn-WwDgra5XCmGQ85vqLo--Pqzp9TCEWpKFaMjiVC3wIzX_q-adIMSpVonu594xKp7yajIEWrfBwJkHQCJ6XDyo0JeA2pCyiA7LZSAn1C4RYWmJ3PLi-5Dyocy4zVQizkZrMK5mASLlRJuvHh9nNvVPn7-MkxBfh2ADOV76qNvJ0Snyeb7I0NdcCi4Cc1Nksu8RooHNDLFDLb4El41tiOxvBJksEZ8BT6JY_2gNDKFLt4NdhKH4F5Wj1f5QXlNRuyaO51QdI0bhx3MY9bY5k2pgReSj3VB7OSCTS9Bl-mJAvJLb8PVODSAJ1v1YD7n0gS6KKeSqrqQanwmSjlvcyJ6conlh0KMDuChrgKcU-jPRK6_-6DVCciyzIt-sCaB_vlTRE1xdo1Dlo9GsrAnAie8L6AIDcN4NaYj864gg2-n7Kdp1Z5sqqEBjoyldqg1mIDoPlVRdMRmVf6_ur9uOFhoDa14JNLm-w2gtMzbEWJ-fxAAPqEtN1DS-IuNTlbkJMFYdHyTvBo4z9U9dHK8jfhW1QLptvCdbNgEb6Jg7oIsrHiMr6rxgGijaFDZ6fXTmW5Ch4RqSqsvvbBDnMPENB4tnxLt5lBFULAA4CFSQcTnKPVN_KzeNzX_ogrecf_jrqvzpR-xjXDz5O6FRnjsfRguaYXr88bL_kMlUEdyICedi9yGeY-r5DXN17e-kF7QTmbAYFaq6h8IFuqqYNFOrk4B9Ft27SWI4etge-2BfNm51s020qEtuR4" data-xt-vimp="{&quot;pixel_in_percentage&quot;:0,&quot;duration_in_ms&quot;:1,&quot;client_track_subsequent_impression&quot;:true,&quot;subsequent_gap_in_ms&quot;:60000,&quot;log_initial_nonviewable&quot;:false,&quot;should_batch&quot;:true,&quot;require_horizontally_onscreen&quot;:false,&quot;encrypt_data_xt&quot;:true,&quot;signal_mode_for_ss&quot;:false,&quot;vital_mode_for_ss&quot;:false,&quot;should_not_delay_impression&quot;:true,&quot;should_log_endpoint_info&quot;:true,&quot;log_viewability_events_for_infra_validation&quot;:false,&quot;log_visibility_hidden_when_browser_inactive&quot;:true,&quot;count_blue_bar_height&quot;:true,&quot;detect_occlusion&quot;:false,&quot;should_not_log_on_occlusion&quot;:true,&quot;is_rhc&quot;:false}" id="u_1_1_tO">
+                                                                                            <div class="_3ccb" data-ft="{&quot;tn&quot;:&quot;-R&quot;}" data-gt="{&quot;type&quot;:&quot;click2canvas&quot;,&quot;fbsource&quot;:703,&quot;ref&quot;:&quot;nf_generic&quot;}" id="u_1_9_kq">
+                                                                                                <div></div>
+                                                                                                <div class="_5pcr userContentWrapper" style="" data-ft="{&quot;tn&quot;:&quot;-R&quot;}">
+                                                                                                    <div class="_1dwg _1w_m _q7o" data-visualcompletion="ignore-dynamic">
+                                                                                                        <div class="_3x-2 _2p_a" data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                            <div data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                <div class="mtm">
+                                                                                                                    <div class="_2l7q">
+                                                                                                                        <a href="https://www.facebook.com/photo.php?fbid=1325911542914196&amp;set=a.736550611850295&amp;type=3&amp;ref=embed_page" target="_blank">
+                                                                                                                            <img class="_1p6f _1p6g img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/573636659_1325911546247529_8806152191823510537_n.jpg?stp=dst-jpg_s350x350_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=LLCZCvbZftsQ7kNvwFz_ETm&amp;_nc_oc=Adndv2ZP_GIcf-1wfIlJhJ2m_69vJl_A-J1o7sTWk2Mc8sxiNZ55NfTyr1mAg2FN3pY&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfdRQut96tEVfPpdYNMlX_ymMH1P7EoR2ws72Jc2CG7bGQ&amp;oe=690930C1" alt="" style="max-width:325px;max-height:325px;" width="325" height="325">
+                                                                                                                        </a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    <div>
+                                                                                                        <div class="clearfix l_c3pyo2v0u _5eit _4d-l">
+                                                                                                            <div class="_5pb8 _29h _303">
+                                                                                                                <a href="/stories/101539208684775/?source=EMBED_POST&amp;ref=embed_page" aria-label="閲覧していないストーリーズを再生" target="_blank" id="u_1_z_T/">
+                                                                                                                    <div class="_38vo">
+                                                                                                                        <noscript id="u_1_10_Kf"></noscript>
+                                                                                                                        <div>
+                                                                                                                            <img class="_s0 _4ooo _6y97 _6_ut _5xib _5sq7 _44ma _rw img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-1/380700650_10162533193146729_2379134611963304810_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=f907e8&amp;_nc_ohc=OoO09awFBjcQ7kNvwEqNmKC&amp;_nc_oc=Adnb_fSHD3fzvyczqZ97BVcdQ2al_oVhdPvSgY0wOCNed1_WF9EAwE29_Lp3IMbW97g&amp;_nc_zt=24&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcAbt6x7OG_rwenikWCtdYDwwy6Baz4k786FytNT1R5Hw&amp;oe=69095E0E" alt="" aria-label="Facebook" role="img">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </a>
+                                                                                                            </div>
+                                                                                                            <div class="_302">
+                                                                                                                <span>
+                                                                                                                    <a href="/facebook/posts/pfbid02SUqD6tccAgfMRkz27ShqcCZrB28i4314Jac6WtrSzFAyypWpVXSDHdiACdUjuo2Ql?ref=embed_page" target="_blank">
+                                                                                                                        <i class="img sp_gOPKfOvAT23 sx_49ac64"></i>
+                                                                                                                    </a>
+                                                                                                                </span>
+                                                                                                            </div>
+                                                                                                        <div class="_3dp _29k">
+                                                                                                            <div>
+                                                                                                                <div class="_6a">
+                                                                                                                    <div class="_6a _6b" style="height:40px"></div>
+                                                                                                                    <div class="_6a _6b">
+                                                                                                                        <a href="https://www.facebook.com/facebook?ref=embed_page" target="_blank">
+                                                                                                                        <div class="_2_79 _50f4 _50f7">
+                                                                                                                            "Facebook"
+                                                                                                                            <span class="_56_f _5dzy _5dz_ _3twv" aria-label="認証済みプロフィール"></span>
+                                                                                                                        </div>
+                                                                                                                    </a>
+                                                                                                                    <a href="/facebook/posts/pfbid02SUqD6tccAgfMRkz27ShqcCZrB28i4314Jac6WtrSzFAyypWpVXSDHdiACdUjuo2Ql?ref=embed_page" target="_blank" class="_39g5">
+                                                                                                                        <abbr data-utime="1761764378" data-tooltip-content="2025年10月29日水曜日 11:59" data-hover="tooltip" class="timestamp">
+                                                                                                                            <span class="timestampContent">19時間前</span>
+                                                                                                                        </abbr>
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div data-testid="post_message" class="_5pbx userContent _3576" data-ft="{&quot;tn&quot;:&quot;K&quot;}">
+                                                                                                    <p>Business me clocking in to seal the deal on Facebook Marketplace</p>
+                                                                                                    <p>
+                                                                                                        " Made with "
+                                                                                                        <a title="Meta AI" class="profileLink" href="https://www.facebook.com/metaai?fref=mentions&amp;ref=embed_page" target="_blank">Meta AI</a>
+                                                                                                    </p>
+                                                                                                </div>
+                                                                                                <div></div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                <div class="_2162 _2_1h _rb9" id="u_1_e_00">
+                                                                                                    <table class="uiGrid _51mz" cellspacing="0" cellpadding="0">
+                                                                                                        <tbody>
+                                                                                                            <tr class="_51mx">
+                                                                                                                <td class="_51m- prl _435r">
+                                                                                                                    <span tabindex="0" role="button" class="embeddedLikeButton" id="u_1_f_W1">
+                                                                                                                        <div class="_2pi4 _36iq _4lk2 _3xre _2165" title="「いいね！」">
+                                                                                                                            <i class="_3-8_ _2yf7 _5jp _2166 img sp_gOPKfOvAT23 sx_7f8186"></i>
+                                                                                                                            <i class="_3-8_ _2yf7 _3wdt _2166 img sp_gOPKfOvAT23 sx_b0ff51"></i>
+                                                                                                                            "1.8万"
+                                                                                                                        </div>
+                                                                                                                    </span>
+                                                                                                                </td>
+                                                                                                                <td class="_51m- prl _435r">
+                                                                                                                    <a class="_29bd" href="https://www.facebook.com/facebook/posts/pfbid02SUqD6tccAgfMRkz27ShqcCZrB28i4314Jac6WtrSzFAyypWpVXSDHdiACdUjuo2Ql?ref=embed_page" target="_blank">
+                                                                                                                        <div class="_2pi4 _36iq _4lk2 _3xre _1p4p" title="コメントする">
+                                                                                                                            <i class="_3-8_ _2yf7 _5jp _4mlr img sp_gOPKfOvAT23 sx_84bd5e"></i>
+                                                                                                                            <i class="_3-8_ _2yf7 _3wdt _4mlr img sp_gOPKfOvAT23 sx_eaa25d"></i>
+                                                                                                                            "6,991"
+                                                                                                                        </div>
+                                                                                                                    </a>
+                                                                                                                </td>
+                                                                                                                <td class="_51m- prl _51mw">
+                                                                                                                    <a class="_29bd" href="/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fposts%2Fpfbid02SUqD6tccAgfMRkz27ShqcCZrB28i4314Jac6WtrSzFAyypWpVXSDHdiACdUjuo2Ql&amp;display=popup&amp;ref=embed_page&amp;src=post" target="_blank" id="u_1_g_0M">
+                                                                                                                        <div class="_2pi4 _36iq _4lk2 _3xre _50sk" title="シェアする">
+                                                                                                                            <i class="_3-8_ _2yf7 _5jp _2167 img sp_gOPKfOvAT23 sx_465ad2"></i>
+                                                                                                                            <i class="_3-8_ _2yf7 _3wdt _2167 img sp_gOPKfOvAT23 sx_47fb78"></i>
+                                                                                                                            "410"
+                                                                                                                            </div>
+                                                                                                                        </a>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                <div class="_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8" data-ft="{&quot;fbfeed_location&quot;:50}" data-fte="1" data-ftr="1" data-xt="AZWE22FS60m815ebK99XDW-knxcl4rSsFA6L1IVFRr9lBWKNdtauOodobxw3E2SJrQwbov5ktjs-uj7CnnbWCeIaa0gHzYkW4rxEMhOqygrhT0KGego66jNadVaYWYdyyNb5T7hNgZ8g2iexW5lakqbHvxLwZMKkOXaxMy4rMAVYQAuq1ZvsmuBAiW5O__UD8hNHsC9ERin-bTDMqRDXGBB49ddD-c2XdH5201a14GD5YvaG7Up8Zyda6Rx3LlM-MmN__MLMWdkCf-8EOugkRzPqmm5bwXrmb4_Kk57P6720HZV8hHt1V9u_SVUCgMvokzjyts163MFLHGkfKovfQoxyGaXio4lcn4jFz2EBElqfPImfeb9ln29tbxGbeQe76yosL97qaPKCgtPb6e4I6TB9TmNqlUfoV51zU5AEyevPwwMw4m6NF6hSJcuDZ0etNeOWWA04SyFluXP1FH8t8OdiFdd9kPdM5XpmZBFZqhZtSxhglE1sPMJoAEF56OHGTnIqdcBMvucNLe0VSchS4KmH6kuafWOijj6Ga-Fp5UmXF5S41O1V2UUTXlQEfSukrNVKj0aE4ONmA-SxpQizFk_E585fjIWI7d5G7h09FM3n1tx6_DsQYyowsohEJnSZtHvCTlZjXYXX5r5R-dnAQWuBO9Py7AJXaEZn47PoKWsdIyUJAWPdKNSUCkluyW1p6twsdjh-ODuC527tQEEjQR4PGY_wA6LaCU2bQrP2SZrol7cTI5_rSDrj6bHNIeqBetYQLm989PPghh6vqDtdKCBGai1eN4XzX_Q2ssPmevEQc0VeMIYq-SJettIopyhrZgxk9AxhSUoJ_GLf8LVRBk6mVjLPObv4NfzdWbWq4QdJAMSoOuM_Ww5waR2mCBzKaTCWEOhRZTDesohryd2jhpAaoCagZUy_oAQf_32t3_vlxxsZAO2QuL4nFKnNXEx1wAu9Ls-KGmI7hubzo591L6GMzw_YYytnKm6E6fJsud0N749r8Di18db44kxczIymDSRm7I_ORBlXjVu8kBcMmN3zeHt8oQDYpHT8ShZqlbyLgyQXhrDGeNp3RfxcrO_em2YDnNqzWF4Q4SFC2merEfvBAwVzU5uhNPssQd20XvY25Usr8lgipBCj3RPyEROQa5wId15hGsnwsrxC2BS0IQ6t-x4bQTU8e37FJ49Zr8ZfHOBWDKnNLN2ZnPdAdGeM2qvNi71DTWMROpaeHfKueeBl1989wc0QG2we_H4t4ApInJnWPdnzz4WHTwViL6q4zF2tlkFPM2GvEcjVfXxYV_iieQsdbESXD9BAOpOeektxUWOrEN6NOXHIKfyxt11XnrHbknyEQawVb_9N2TIRTbVFfvUgbnbkgNCmMNQROLcLat_ib26kHT_qwLB3UdpAm7H14FAqVf58_5Ru9G2q26cteOXMiI8gu8Qq-XedgozQzJmS8aaXj0gJ9xvA89HmsGYrEcExyhIfkBF-wFlFqgpi1tWjioBMa28qCyQHv8sm9Y74pTZZkpWV4etXrGB8Xu4VAWaDmsJvY0rmMep66WyQzbuu-kUk6fhaCkc-jUipkHXxbndoXoXEjFT_qgMqPK0" data-xt-vimp="{&quot;pixel_in_percentage&quot;:0,&quot;duration_in_ms&quot;:1,&quot;client_track_subsequent_impression&quot;:true,&quot;subsequent_gap_in_ms&quot;:60000,&quot;log_initial_nonviewable&quot;:false,&quot;should_batch&quot;:true,&quot;require_horizontally_onscreen&quot;:false,&quot;encrypt_data_xt&quot;:true,&quot;signal_mode_for_ss&quot;:false,&quot;vital_mode_for_ss&quot;:false,&quot;should_not_delay_impression&quot;:true,&quot;should_log_endpoint_info&quot;:true,&quot;log_viewability_events_for_infra_validation&quot;:false,&quot;log_visibility_hidden_when_browser_inactive&quot;:true,&quot;count_blue_bar_height&quot;:true,&quot;detect_occlusion&quot;:false,&quot;should_not_log_on_occlusion&quot;:true,&quot;is_rhc&quot;:false}" id="u_1_2_yW">
+                                                                                                    <div class="_3ccb" data-ft="{&quot;tn&quot;:&quot;-R&quot;}" data-gt="{&quot;type&quot;:&quot;click2canvas&quot;,&quot;fbsource&quot;:703,&quot;ref&quot;:&quot;nf_generic&quot;}" id="u_1_6_tM">
+                                                                                                        <div></div>
+                                                                                                        <div class="_5pcr userContentWrapper" style="" data-ft="{&quot;tn&quot;:&quot;-R&quot;}">
+                                                                                                            <div class="_1dwg _1w_m _q7o" data-visualcompletion="ignore-dynamic">
+                                                                                                                <div></div>
+                                                                                                                <div class="_4r_y">
+                                                                                                                    <div class="_1wbl" id="u_1_a_id"></div>
+                                                                                                                    </div>
+                                                                                                                    <div>
+                                                                                                                        <div class="clearfix l_c3pyo2v0u _5eit _4d-l">
+                                                                                                                            <div class="_5pb8 _29h _303">
+                                                                                                                                <a href="/stories/101539208684775/?source=EMBED_POST&amp;ref=embed_page" aria-label="閲覧していないストーリーズを再生" target="_blank" id="u_1_v_2w">
+                                                                                                                                    <div class="_38vo">
+                                                                                                                                        <noscript id="u_1_w_yJ"></noscript>
+                                                                                                                                        <div>
+                                                                                                                                            <img class="_s0 _4ooo _6y97 _6_ut _5xib _5sq7 _44ma _rw img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-1/380700650_10162533193146729_2379134611963304810_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=f907e8&amp;_nc_ohc=OoO09awFBjcQ7kNvwEqNmKC&amp;_nc_oc=Adnb_fSHD3fzvyczqZ97BVcdQ2al_oVhdPvSgY0wOCNed1_WF9EAwE29_Lp3IMbW97g&amp;_nc_zt=24&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcAbt6x7OG_rwenikWCtdYDwwy6Baz4k786FytNT1R5Hw&amp;oe=69095E0E" alt="" aria-label="Facebook" role="img">
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </a>
+                                                                                                                            </div>
+                                                                                                                        <div class="_302">
+                                                                                                                            <span>
+                                                                                                                                <a href="/facebook/posts/pfbid0DXuRqobXy9aRbC4imYWUyJKKvCmrHCAZi9zqjWw8TV2y8JvvhoXbxF1ggS77FXhpl?ref=embed_page" target="_blank">
+                                                                                                                                    <i class="img sp_gOPKfOvAT23 sx_49ac64"></i>
+                                                                                                                                </a>
+                                                                                                                            </span>
+                                                                                                                        </div>
+                                                                                                                        <div class="_3dp _29k">
+                                                                                                                            <div>
+                                                                                                                                <div class="_6a">
+                                                                                                                                    <div class="_6a _6b" style="height:40px"></div>
+                                                                                                                                    <div class="_6a _6b">
+                                                                                                                                        <a href="https://www.facebook.com/facebook?ref=embed_page" target="_blank">
+                                                                                                                                            <div class="_2_79 _50f4 _50f7">
+                                                                                                                                                "Facebook"
+                                                                                                                                                <span class="_56_f _5dzy _5dz_ _3twv" aria-label="認証済みプロフィール"></span>
+                                                                                                                                                </div>
+                                                                                                                                            </a>
+                                                                                                                                            <a href="/facebook/posts/pfbid0DXuRqobXy9aRbC4imYWUyJKKvCmrHCAZi9zqjWw8TV2y8JvvhoXbxF1ggS77FXhpl?ref=embed_page" target="_blank" class="_39g5">
+                                                                                                                                                <abbr data-utime="1761753600" data-tooltip-content="2025年10月29日水曜日 9:00" data-hover="tooltip" class="timestamp">
+                                                                                                                                                    <span class="timestampContent">22時間前</span>
+                                                                                                                                                </abbr>
+                                                                                                                                            </a>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div data-testid="post_message" class="_5pbx userContent _3ds9 _3576" data-ft="{&quot;tn&quot;:&quot;K&quot;}">
+                                                                                                                            <div class="_5_jv _58jw">
+                                                                                                                                <p>How it started: Facebook Group members</p>
+                                                                                                                                <p> How it ended: Literally BF4L</p>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div class="_3x-2" data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                            <div data-ft="{&quot;tn&quot;:&quot;H&quot;}"></div>
+                                                                                                                        </div>
+                                                                                                                    <div></div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="_2162 _2_1h _rb9" id="u_1_n_Xr">
+                                                                                                                <table class="uiGrid _51mz" cellspacing="0" cellpadding="0">
+                                                                                                                    <tbody><tr class="_51mx">
+                                                                                                                        <td class="_51m- prl _435r">
+                                                                                                                            <span tabindex="0" role="button" class="embeddedLikeButton" id="u_1_o_sl">
+                                                                                                                                <div class="_2pi4 _36iq _4lk2 _3xre _2165" title="「いいね！」">
+                                                                                                                                    <i class="_3-8_ _2yf7 _5jp _2166 img sp_gOPKfOvAT23 sx_7f8186"></i>
+                                                                                                                                    <i class="_3-8_ _2yf7 _3wdt _2166 img sp_gOPKfOvAT23 sx_b0ff51"></i>
+                                                                                                                                    "3.1万"
+                                                                                                                                    </div>
+                                                                                                                                </span>
+                                                                                                                            </td>
+                                                                                                                            <td class="_51m- prl _435r">
+                                                                                                                                <a class="_29bd" href="https://www.facebook.com/facebook/posts/pfbid0DXuRqobXy9aRbC4imYWUyJKKvCmrHCAZi9zqjWw8TV2y8JvvhoXbxF1ggS77FXhpl?ref=embed_page" target="_blank">
+                                                                                                                                    <div class="_2pi4 _36iq _4lk2 _3xre _1p4p" title="コメントする">
+                                                                                                                                        <i class="_3-8_ _2yf7 _5jp _4mlr img sp_gOPKfOvAT23 sx_84bd5e"></i>
+                                                                                                                                        <i class="_3-8_ _2yf7 _3wdt _4mlr img sp_gOPKfOvAT23 sx_eaa25d"></i>
+                                                                                                                                        "1.1万"
+                                                                                                                                    </div>
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td class="_51m- prl _51mw">
+                                                                                                                                <a class="_29bd" href="/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fposts%2Fpfbid0DXuRqobXy9aRbC4imYWUyJKKvCmrHCAZi9zqjWw8TV2y8JvvhoXbxF1ggS77FXhpl&amp;display=popup&amp;ref=embed_page&amp;src=post" target="_blank" id="u_1_p_0j">
+                                                                                                                                    <div class="_2pi4 _36iq _4lk2 _3xre _50sk" title="シェアする">
+                                                                                                                                        <i class="_3-8_ _2yf7 _5jp _2167 img sp_gOPKfOvAT23 sx_465ad2"></i>
+                                                                                                                                        <i class="_3-8_ _2yf7 _3wdt _2167 img sp_gOPKfOvAT23 sx_47fb78"></i>
+                                                                                                                                        "772"
+                                                                                                                                    </div>
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8" data-ft="{&quot;fbfeed_location&quot;:50}" data-fte="1" data-ftr="1" data-xt="AZVNUcunTvAr0SnFTNI0OX-89oIiLrjGhDGSMx1wwikfLk6D11DN9BItYdGsIbh_4WvoFXyzCuZ4pwnxVaTEGanxQnFNC3NKD06QJL-L0cgevaWFIGZyVPJX-D_uXCJkSiCQCc854F0T9uD2X-MyA0Po3pNGb1bEbD-9ka7DF9LjgPmm7s7F2eZgsMJDpcz6LMYkXVRjHrjjAjmmdDMBwVcVoaR6eRRl8c9EGkRKyzuLDZHr2gv9vSa9_-AXX4u3K2TxXRAvFJriaUlUxheJvjFepKR30MVXgRVwWDJTuXqxboIHmR0J6aNEMfOK4LbZZaQ3bPbZoQICqiX-z027MXiQNkLKPQEHLh7MlpVk9i4iK8XjGemnysQ0BLC3cXrFkulCuY9PjnoSGkh-OuDKfJXGyZqvhhdqEgBsuDjFhVn4H_Nq1YdaJMdjpALHD_AcJjDtOu8PG17Jhmz-eWB8mh4T5HgI1QBVJ9PzFpWIgHlOKknoDWwmHAp30Qxf2CcwMAF9-OrHTEomLGCgZ5er5N7CiKAPfOe72hM0a_kj_CymjIvgAE3owGWJYy-qKXJDyRU4TBY1kbGlTv6AN8Q58Xa2e-lYoQqEcuMwfvPqEhJA8XWghC9JLxEnkIprF1gTNLh0igWkk8s1BFeb-uTNl7gueeFU0qg-Gm41m03nso7p-fsDbSPl7xb4ewhZpdMcZBjuvGOnZGypuIstnEr0OTnE5ew-G9ntELB9Uo25GF_4b-tfrbWA1YtKJLb3i5e-srSfpOx70D6-WONSQRwHPixQ8KVZsm49oLxuzfIaPDFXAXM58d7K2hqdoboqwenoaLrdI7EiKj75tdpmNmg5rRfopuE_kRFua5Iv4tPWGdtQ1CY4AAITVIOk7w4aq3R41scACeCV2_dgv6gMCUeRwTFxistRwtl4T-5S-XoBIcSc1Z_AwwBQfW6TNOAuQ9wsh3Zu9BaWb8mKrX9L3VJrwcWEp1oSXDPuabjfFXEzBz6s1XkejxH5QJwCBPVmATNcvascIfqha0wB9A5jqy0qHxye8pNVceFPnP4y11V-kcWRuQ_32U_-SwSWBcyRsr0JGcH4hXlJuPVKnikllM0mVW2ea8PzpZ1m1H3Ct5TdKwYGwpdOsbJq5YDPp9SkWq63ZjNHc51_K6yB0aHJuM8blqzyzGgYGmgFtj21fj__MH1umFrw3ALI7N6_pXvz0z5Y6KCYjBN0PPqsQQNLL5z5aKS9_dFwBgysOkrWWxwVFS91iLZerrP_KQaFkl8WYtPQx7jptQ7mFVFL2Ys0losGhTXh8KeZqyKZKXMQFTMkua92NudySoDhePJzn9jiBqF1MPUw7LS6MEtu9VweBhnzF1eaiPjoqwQdDY5oJn6m3hEwHzL5d18hNO6twqPG1WsLVaSmvHuNXRTxuMM-P8H-H1OITWGJrtVvc4d2ouDD6XLcowkna_L0uF_nFMOykBAqUzpq2QzvJkeGFmeRNRZRDWTqLX-fyHW4hMXPinl4jsHpkHOKA1snP4orftBfBOfFot1VnPkoGKZWKE4SjvQnmCjxRtd3zs6Ngx8ki-b1Pd1Jmkjl8J9bgqWPc-70Sbcl8q1p2-0luDF0oDNsp-bstJy_TvPDx6Dd9uk7VQWCPbSlq0rizkFX-nIQ5OBV3YuzQVsSv946FCq4RNwO10y_CgQDwlsHtMh-cxuANg_ZucvABZeWkhtIM7Qr0IMSODnQSHMhbWCvoj0wPVDph5-DZ4WPppBgzT7Sdp3sdHbAQNcoCGCCFSrNPCn0N3W1PNqE2W3SQApp-b4q_8SLblMRbjaQPEvzwjCXjks3PTwFaMiPLAvR6TaZJOpGwXcNpmM8JUCoa4pFZx5dionjKyZFwuTeag5GiqkLqQuU6_YK4YGSfv1w7CZCJhyOpwNyxCtouhbviv55jHX47CHk5YSKzwSuxZNIGaOPZV1At-_dmBTbpein2gX22j0dmIyJd4FcFHnE9D2aqeFaps2rv4B6Li02nenSoKd8vzyomQNG8G25rUo3RD1skYCdPAiCLiOf_4mAikQ07XXCOfXDuP4VFM6zHwJPjT46cXDEzHddCqi9dcalRYqK7Ru5L85wCR3W2wHSVWuho63rpPc4yYp2E0DfZby1VoEGVtpSbgrHYPp1QJsBrqLGLMx_jQf_ujGP-HIxsDMjiALQ4lcw_vL6IGPSHeGHbob7lWyICJXFB_xAUY1WRQLKeNr1IBwLOUkRoUWeJEt07T1kgaO8v4xTm_P2ukoMjBAEvEhe0_mEhsK7JqIa2XgAbVtgNBL9Ruzo3oBgqI3sqMlRgWcz3lTKp9zGP3XJSpRPf3HAKp6-ZMXomfQtipNShPIFypfix-EmCvo3gMlZV8RkojQRyZ8FBfbrHG1p19A6eCg9Nw6ZGv79uvyeHwgFK2CJSsp4ZPMfj3gkIrFCYKfUCfhtQIEZuz86uRfVuu_Hq7pg1xrwVOXNvE9ke-Y5ddV0VZUQoD7tcXRYtNnNHOm4cZXwzUd2aHLQKx3vuRidZWEdlNushN5AJmIWwJQnHXJbAQoEF1IVk3wWLcnsY3mD9pLr1iqc4LSIa8Z8rnF-DN8IYiw3QvwrcTR_EoB37jyzjeH0pjeDGov4BRo3J2NIRzvW_h32j4m9YSE5mntWXCrT2pJNTtlQzmEtQNsvjn0Wqex2Ff5McfX2db0NwB1LaRndXOfeuDOtmHb6tXKiDSd1r4MSukmmMix1lhSPqK1ytVgfUT0O6gBJtpttA_j8irLi9lHHaGVOIp0TpDseEpxihEKLrt7EgQ" data-xt-vimp="{&quot;pixel_in_percentage&quot;:0,&quot;duration_in_ms&quot;:1,&quot;client_track_subsequent_impression&quot;:true,&quot;subsequent_gap_in_ms&quot;:60000,&quot;log_initial_nonviewable&quot;:false,&quot;should_batch&quot;:true,&quot;require_horizontally_onscreen&quot;:false,&quot;encrypt_data_xt&quot;:true,&quot;signal_mode_for_ss&quot;:false,&quot;vital_mode_for_ss&quot;:false,&quot;should_not_delay_impression&quot;:true,&quot;should_log_endpoint_info&quot;:true,&quot;log_viewability_events_for_infra_validation&quot;:false,&quot;log_visibility_hidden_when_browser_inactive&quot;:true,&quot;count_blue_bar_height&quot;:true,&quot;detect_occlusion&quot;:false,&quot;should_not_log_on_occlusion&quot;:true,&quot;is_rhc&quot;:false}" id="u_1_3_eN">
+                                                                                                    <div class="_3ccb" data-ft="{&quot;tn&quot;:&quot;-R&quot;}" data-gt="{&quot;type&quot;:&quot;click2canvas&quot;,&quot;fbsource&quot;:703,&quot;ref&quot;:&quot;nf_generic&quot;}" id="u_1_8_hd">
+                                                                                                        <div></div>
+                                                                                                        <div class="_5pcr userContentWrapper" style="" data-ft="{&quot;tn&quot;:&quot;-R&quot;}">
+                                                                                                            <div class="_1dwg _1w_m _q7o" data-visualcompletion="ignore-dynamic">
+                                                                                                                <div></div>
+                                                                                                                <div class="_4r_y">
+                                                                                                                    <div class="_1wbl" id="u_1_c_CT"></div>
+                                                                                                                    </div>
+                                                                                                                    <div>
+                                                                                                                        <div class="clearfix l_c3pyo2v0u _5eit _4d-l">
+                                                                                                                            <div class="_5pb8 _29h _303">
+                                                                                                                                <a href="/stories/101539208684775/?source=EMBED_POST&amp;ref=embed_page" aria-label="閲覧していないストーリーズを再生" target="_blank" id="u_1_1h_HO">
+                                                                                                                                    <div class="_38vo">
+                                                                                                                                        <noscript id="u_1_1i_ga"></noscript>
+                                                                                                                                        <div>
+                                                                                                                                            <img class="_s0 _4ooo _6y97 _6_ut _5xib _5sq7 _44ma _rw img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-1/380700650_10162533193146729_2379134611963304810_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=f907e8&amp;_nc_ohc=OoO09awFBjcQ7kNvwEqNmKC&amp;_nc_oc=Adnb_fSHD3fzvyczqZ97BVcdQ2al_oVhdPvSgY0wOCNed1_WF9EAwE29_Lp3IMbW97g&amp;_nc_zt=24&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcAbt6x7OG_rwenikWCtdYDwwy6Baz4k786FytNT1R5Hw&amp;oe=69095E0E" alt="" aria-label="Facebook" role="img">
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </a>
+                                                                                                                            </div>
+                                                                                                                        <div class="_302">
+                                                                                                                            <span>
+                                                                                                                                <a href="/facebook/posts/pfbid02pWGBmVkRJsC134axBM7pXAYxQSVux7GUT4PZVxUCuFXki2PtsnDYyWh1J8n4yffrl?ref=embed_page" target="_blank">
+                                                                                                                                    <i class="img sp_gOPKfOvAT23 sx_49ac64"></i>
+                                                                                                                                </a>
+                                                                                                                            </span>
+                                                                                                                        </div>
+                                                                                                                        <div class="_3dp _29k">
+                                                                                                                            <div>
+                                                                                                                                <div class="_6a">
+                                                                                                                                    <div class="_6a _6b" style="height:40px"></div>
+                                                                                                                                    <div class="_6a _6b">
+                                                                                                                                        <a href="https://www.facebook.com/facebook?ref=embed_page" target="_blank">
+                                                                                                                                            <div class="_2_79 _50f4 _50f7">
+                                                                                                                                               "Facebook"
+                                                                                                                                               <span class="_56_f _5dzy _5dz_ _3twv" aria-label="認証済みプロフィール"></span>
+                                                                                                                                            </div>
+                                                                                                                                        </a>
+                                                                                                                                        <a href="/facebook/posts/pfbid02pWGBmVkRJsC134axBM7pXAYxQSVux7GUT4PZVxUCuFXki2PtsnDYyWh1J8n4yffrl?ref=embed_page" target="_blank" class="_39g5">
+                                                                                                                                            <abbr data-utime="1761685178" data-tooltip-content="2025年10月28日火曜日 13:59" data-hover="tooltip" class="timestamp">
+                                                                                                                                                <span class="timestampContent">火曜日</span>
+                                                                                                                                            </abbr>
+                                                                                                                                        </a>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div data-testid="post_message" class="_5pbx userContent _3576" data-ft="{&quot;tn&quot;:&quot;K&quot;}">
+                                                                                                                        <p>
+                                                                                                                            <a class="profileLink" href="/groups/carvingpumpkins/?fref=mentions&amp;ref=embed_page" target="_blank">
+                                                                                                                                <span class="_5mfr">
+                                                                                                                                    <span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t86/1/16/1f383.png&quot;)">🎃</span>
+                                                                                                                                    </span> 
+                                                                                                                                    "The Pumpkin Carving Group"
+                                                                                                                                    </a>
+                                                                                                                                    "is on another level"
+                                                                                                                                    <span class="_5mfr">
+                                                                                                                                        <span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t86/1/16/1f383.png&quot;)">🎃</span>
+                                                                                                                                        </span>
+                                                                                                                                        <span class="_5mfr">
+                                                                                                                                            <span class="_6qdm" style="height: 16px; width: 16px; font-size: 16px; background-image: url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/tbf/1/16/1f9d1_200d_1f3a8.png&quot;)">🧑‍🎨</span>
+                                                                                                                                        </span>
+                                                                                                                                    </p>
+                                                                                                                                    <p>
+                                                                                                                                        “We have many professional carvers who are willing to help novice carvers with tips and tricks — what proper tools to use, what steps to do and how to do this the easiest way possible,” says Stoney Kins, who created the group.” 
+                                                                                                                                        </p>
+                                                                                                                                        <p>
+                                                                                                                                            ” Photos by Joyia Bosch, Megan Reid Traverso, Michael Casimir Gradomski, Anthony Pater,”
+                                                                                                                                             <a title="Pop Culture Pumpkins" class="profileLink" href="https://www.facebook.com/popculturepumpkins?fref=mentions&amp;ref=embed_page" target="_blank">Pop Culture Pumpkins</a>
+                                                                                                                                            ” , Drew Smith and ”
+                                                                                                                                            <span class="_39_n profileLink" title="Stoney Kins">Stoney Kins</span>
+                                                                                                                                            </p>
+                                                                                                                                        </div>
+                                                                                                                                    　　 <div class="_3x-2" data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                                        <div data-ft="{&quot;tn&quot;:&quot;H&quot;}">
+                                                                                                                                            <div class="mtm">
+                                                                                                                                                <div class="_2a2q _65sr" style="width:325px; height:271px;">
+                                                                                                                                                    <div class="_xcx" id="u_1_1d_aI" style="top:0px; left:0px; width: 162px; height: 162px;">
+                                                                                                                                                        <div class="_46-h" style="width:162px;height:162px;">
+                                                                                                                                                            <img class="_46-i img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572976019_1325051376333546_3926707056993130522_n.jpg?stp=dst-jpg_s206x206_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=yjBlDDblibAQ7kNvwFgIl04&amp;_nc_oc=AdnvCuU35pli8FvgvgtQpBQXANyVwFb2YcXwoVZLSUZ9TegygKw-G6v7tvm9hA6BJjE&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AffzbcLkFZry-TU3Cekom3kG6NxrWyQxIRg62IvVvvRFeQ&amp;oe=69093330" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572976019_1325051376333546_3926707056993130522_n.jpg?stp=dst-jpg_s206x206_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=yjBlDDblibAQ7kNvwFgIl04&amp;_nc_oc=AdnvCuU35pli8FvgvgtQpBQXANyVwFb2YcXwoVZLSUZ9TegygKw-G6v7tvm9hA6BJjE&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AffzbcLkFZry-TU3Cekom3kG6NxrWyQxIRg62IvVvvRFeQ&amp;oe=69093330" style="left:-1px; top:0px;" alt="A carved pumpkin featuring a drooling dog dressed as Dracula." width="165" height="206" caption="A carved pumpkin featuring a drooling dog dressed as Dracula.">
+                                                                                                                                                            </div>
+                                                                                                                                                            <script type="application/ld+json" nonce>
+                                                                                                                                                                {"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T21:58:35-0700","identifier":"1325049099667107","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049099667107\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":23},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":154},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":4},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":23,"comment":[{"\u0040type":"Comment","identifier":"1358434955948311","dateCreated":"2025-10-28T14:09:35-0700","text":"Give me bro","mentions":null,"author":{"\u0040type":"Person","name":"MD SUMON 73","url":"https:\/\/www.facebook.com\/people\/MD-SUMON-73\/61575015622774\/","identifier":"61575015622774"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1344416020671126","dateCreated":"2025-10-28T22:58:24-0700","text":"Thank you \ud83e\udd70\ud83e\udd70","mentions":null,"author":{"\u0040type":"Person","name":"Josim Uddin Sd","url":"https:\/\/www.facebook.com\/josim.uddinsd","identifier":"100040494333716"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"820803230360709","dateCreated":"2025-10-28T14:15:35-0700","text":"Nice job on the pumpkin carving! The details are amazing \ud83e\udd29","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1140216361587716","dateCreated":"2025-10-28T14:02:57-0700","text":"Indilma khaliss mounlighta \ud83e\udd62 j'ai pas argent liquide en ces moments","mentions":null,"author":{"\u0040type":"Person","name":"Serigne Sene","url":"https:\/\/www.facebook.com\/people\/Serigne-Sene\/pfbid033wUc5XnPDxLe6pCrUKbGm3FUb3ryWbVWLirbQfGd5ejtYbyKduaEBkpGt6VFBtYwl\/","identifier":"100086004498292"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"816358430989191","dateCreated":"2025-10-29T20:53:05-0700","text":"Very good","mentions":null,"author":{"\u0040type":"Organization","name":"anilray","url":"https:\/\/www.facebook.com\/people\/anilray\/61562690282820\/","identifier":"61562690282820"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1448347246234928","dateCreated":"2025-10-28T21:45:58-0700","text":"\u09b8\u09c7\u0987","mentions":null,"author":{"\u0040type":"Person","name":"KF BD","url":"https:\/\/www.facebook.com\/khairulfunnybd","identifier":"61551862554938"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"2682640158750961","dateCreated":"2025-10-28T15:46:49-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Josephine Cutamora Vallespin Arce","url":"https:\/\/www.facebook.com\/josephine.arce.75","identifier":"100006955083608"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1523552932300481","dateCreated":"2025-10-29T11:31:11-0700","text":"#\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a_\u062a\u0628\u064a\u062f_\u0634\u0639\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#UAE_is_exterminating_the_Sudanese_people \n#Les_EAU_exterminent_le_peuple_soudanais  \n#Die_VAE_vernichten_das_sudanesische_Volk \n#BAE_Sudan_halk\u0131n\u0131_yok_ediyor \n#Los_EAU_exterminan_al_pueblo_sudan\u00e9s \n#Gli_EAU_stanno_sterminando_il_popolo_sudanese\n#\u041e\u0410\u042d_\u0443\u043d\u0438\u0447\u0442\u043e\u0436\u0430\u044e\u0442_\u043d\u0430\u0440\u043e\u0434_\u0421\u0443\u0434\u0430\u043d\u0430","mentions":null,"author":{"\u0040type":"Person","name":"M\u00f8h\u00e0m\u00e9d Bdr Aldeen","url":"https:\/\/www.facebook.com\/m.hamed.bdr.aldeen.2025","identifier":"100041083055836"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"871998688587716","dateCreated":"2025-10-29T05:33:05-0700","text":"Lovely \ud83d\ude0d","mentions":null,"author":{"\u0040type":"Person","name":"Sujata Paul","url":"https:\/\/www.facebook.com\/people\/Sujata-Paul\/61562895903762\/","identifier":"61562895903762"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"2534416253601100","dateCreated":"2025-10-29T05:31:46-0700","text":"Nice","mentions":null,"author":{"\u0040type":"Person","name":"Tushar Sharma Kanpuriya","url":"https:\/\/www.facebook.com\/tushar.sharma.101430","identifier":"61552234557974"},"upvoteCount":1}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/572976019_1325051376333546_3926707056993130522_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yjBlDDblibAQ7kNvwFgIl04&_nc_oc=AdnvCuU35pli8FvgvgtQpBQXANyVwFb2YcXwoVZLSUZ9TegygKw-G6v7tvm9hA6BJjE&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_AfdHdkO2aF758173oO3SIy7fBnLE8N2uivTWUc7ubqVXNA&oe=69093330","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049099667107&set=a.736550611850295&type=3"}],"inLanguage":"en"}
+                                                                                                                                                                </script>
+                                                                                                                                                            </div>
+                                                                                                                                                        <div class="_xcx" id="u_1_1e_MP" style="top:0px; left:164px; width: 161px; height: 162px;">
+                                                                                                                                                            <div class="uiScaledImageContainer" style="width:161px;height:162px;">
+                                                                                                                                                                <img class="scaledImageFitWidth img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572418243_1325051486333535_1877090713700095089_n.jpg?stp=dst-jpg_p160x160_tt6&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=lx8p0U2spy8Q7kNvwGemWCq&amp;_nc_oc=Adkc3noZQUntXdoO50sCWp-SUptbyHSqIrjPtWHwtaxHcQobqqJFlxPe0e5tHZQz7yw&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcnXHcLQiUcFx9I8BF7OVaoPu44Pg_xVmzkuQoUC3Ws0Q&amp;oe=69093FCB" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572418243_1325051486333535_1877090713700095089_n.jpg?stp=dst-jpg_p160x160_tt6&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=lx8p0U2spy8Q7kNvwGemWCq&amp;_nc_oc=Adkc3noZQUntXdoO50sCWp-SUptbyHSqIrjPtWHwtaxHcQobqqJFlxPe0e5tHZQz7yw&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_AfcnXHcLQiUcFx9I8BF7OVaoPu44Pg_xVmzkuQoUC3Ws0Q&amp;oe=69093FCB" alt="A carved pumpkin featuring a princess portrait." width="161" height="202" caption="A carved pumpkin featuring a princess portrait.">
+                                                                                                                                                            </div>
+                                                                                                                                                            <script type="application/ld+json" nonce>
+                                                                                                                                                                {"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T06:49:31-0700","identifier":"1325049306333753","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049306333753\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":22},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":173},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":1},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":22,"comment":[{"\u0040type":"Comment","identifier":"2564411093958370","dateCreated":"2025-10-28T17:30:38-0700","text":"Gorgeous!!!","mentions":null,"author":{"\u0040type":"Person","name":"Bethany Reid Locklear","url":null,"identifier":"3406292"},"upvoteCount":4},{"\u0040type":"Comment","identifier":"720044631107100","dateCreated":"2025-10-28T14:16:00-0700","text":"You're so talented! Keep making beautiful things\ud83d\ude0e","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1325462058713590","dateCreated":"2025-10-28T15:20:11-0700","text":"\u0411\u0420\u0410\u0412\u041e \u0418 \u041f\u041e\u0417\u0414\u0420\u0410\u0412\u041b\u0415\u041d\u0418\u042f \ud83c\udf8a \u0417\u0410 \u0422\u0410\u0417\u0418 \u041f\u0420\u0415\u041a\u0420\u0410\u0421\u041d\u0410 \u0414\u042a\u0420\u0412\u041e\u0420\u0415\u0417\u0411\u0410!\u0423\u041d\u0418\u041a\u0410\u041b\u041d\u0410 \u0424\u041e\u0420\u041c\u0410\u0426\u0418\u042f \u0411\u0420\u0410\u0412\u041e!","mentions":null,"author":{"\u0040type":"Person","name":"\u0420\u0443\u043c\u0435\u043d \u0410\u0442\u0430\u043d\u0430\u0441\u043e\u0432","url":null,"identifier":"100059932083525"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"743386712057219","dateCreated":"2025-10-28T21:55:14-0700","text":"pumpkin arts amazing","mentions":null,"author":{"\u0040type":"Person","name":"Christopher Galla Ortega","url":"https:\/\/www.facebook.com\/Ortega181996","identifier":"100063911881852"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"835549632756113","dateCreated":"2025-10-28T15:42:47-0700","text":"You have a fantastic talent","mentions":null,"author":{"\u0040type":"Person","name":"Jeffrey Winkler","url":"https:\/\/www.facebook.com\/jeffrey.winkler.771","identifier":"100046087470674"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"745713588480549","dateCreated":"2025-10-29T06:49:30-0700","text":"Wow beautiful","mentions":null,"author":{"\u0040type":"Person","name":"Yam Orque","url":"https:\/\/www.facebook.com\/people\/Yam-Orque\/61580889650318\/","identifier":"61580889650318"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"712140391281839","dateCreated":"2025-10-28T15:14:11-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Manav Bapari","url":"https:\/\/www.facebook.com\/sujan.bapare.940","identifier":"100028488363879"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1162140052685890","dateCreated":"2025-10-28T14:33:54-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Al Mamun","url":null,"identifier":"100009918794542"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"2566897650348049","dateCreated":"2025-10-28T14:06:42-0700","text":"Nice quite","mentions":null,"author":{"\u0040type":"Person","name":"Mk Sumon","url":"https:\/\/www.facebook.com\/mksumon349750","identifier":"61554196091321"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1631561817812285","dateCreated":"2025-10-28T14:21:02-0700","text":"Very nice \ud83d\udc4d\ud83d\udc4c\ud83d\udc4c\ud83d\udc4c","mentions":null,"author":{"\u0040type":"Person","name":"Sumon Vlogs","url":"https:\/\/www.facebook.com\/sumon.vlogs.79098","identifier":"61574232052103"},"upvoteCount":3}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/572418243_1325051486333535_1877090713700095089_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lx8p0U2spy8Q7kNvwGemWCq&_nc_oc=Adkc3noZQUntXdoO50sCWp-SUptbyHSqIrjPtWHwtaxHcQobqqJFlxPe0e5tHZQz7yw&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_AfeBwmgCdVwtNVt-7vQnoIC9hlRjFkH8LXSfX4qM0G4s0A&oe=69093FCB","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049306333753&set=a.736550611850295&type=3"}],"inLanguage":"en"}</script></div><div class="_xcx" id="u_1_1g_O8" style="top:164px; left:0px; width: 108px; height: 107px;"><div class="_46-h" style="width:108px;height:107px;"><img class="_46-i img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p110x80_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_aid=0&amp;_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&amp;_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Aff7RN8bImVq53X9EOMsytqryHemPhDK-HERMbgnwILmrQ&amp;oe=69094613" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p110x80_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_aid=0&amp;_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&amp;_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Aff7RN8bImVq53X9EOMsytqryHemPhDK-HERMbgnwILmrQ&amp;oe=69094613" style="left:-1px; top:0px;" alt="A carved pumpkin featuring a graveyard under a tree." width="110" height="138" caption="A carved pumpkin featuring a graveyard under a tree."></div><script type="application/ld+json" nonce="">{"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T19:47:45-0700","identifier":"1325049149667102","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049149667102\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":18},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":160},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":1},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":18,"comment":[{"\u0040type":"Comment","identifier":"1358090709173477","dateCreated":"2025-10-28T14:36:37-0700","text":"\u0e40\u0e1b\u0e47\u0e19\u0e07\u0e32\u0e19\u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e08\u0e49\u0e2d\u0e07\u0e21\u0e2d\u0e07\u0e19\u0e32\u0e19\u0e46\u0e16\u0e36\u0e07\u0e14\u0e37\u0e48\u0e21\u0e14\u0e33\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e27\u0e22\u0e07\u0e32\u0e21Awesome","mentions":null,"author":{"\u0040type":"Person","name":"\u0e10\u0e34\u0e15\u0e34\u0e23\u0e31\u0e15\u0e19\u0e4c \u0e1e\u0e34\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c","url":"https:\/\/www.facebook.com\/taweeti","identifier":"100003317485606"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1491506992156395","dateCreated":"2025-10-28T20:10:22-0700","text":"BEAUTIFUL","mentions":null,"author":{"\u0040type":"Person","name":"Susmita Payal Chatterjee","url":"https:\/\/www.facebook.com\/susmita.payal.chatterjee","identifier":"100064361685437"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1524465368893910","dateCreated":"2025-10-28T14:16:22-0700","text":"Wow, that's amazing! \ud83d\ude2e","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"853517567138456","dateCreated":"2025-10-28T19:18:39-0700","text":"No way it's                        Moix AhMad Shin Ma  \ud83d\ude20\ud83e\udd28\ud83e\udd2b\ud83c\udf34\ud83c\udf04","mentions":[{"\u0040type":"Thing","name":"Moix AhMad Shin Ma"}],"author":{"\u0040type":"Person","name":"Hajjatullah Siraaj Muhammad","url":"https:\/\/www.facebook.com\/SiraajShah666777","identifier":"100086429844417"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"858057766905411","dateCreated":"2025-10-28T15:52:53-0700","text":"wow nice","mentions":null,"author":{"\u0040type":"Person","name":"Prescitita Gura Beray","url":"https:\/\/www.facebook.com\/prescitita.gura.beray.2025","identifier":"100091060107495"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1778593616123919","dateCreated":"2025-10-28T15:48:02-0700","text":"Good job \ud83d\udc4f","mentions":null,"author":{"\u0040type":"Person","name":"Josephine Cutamora Vallespin Arce","url":"https:\/\/www.facebook.com\/josephine.arce.75","identifier":"100006955083608"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"803593329184931","dateCreated":"2025-10-28T14:33:35-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Al Mamun","url":null,"identifier":"100009918794542"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1675657063838877","dateCreated":"2025-10-28T15:13:47-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Manav Bapari","url":"https:\/\/www.facebook.com\/sujan.bapare.940","identifier":"100028488363879"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1218368957175524","dateCreated":"2025-10-28T14:00:22-0700","text":"1","mentions":null,"author":{"\u0040type":"Person","name":"Wenagr Qahar","url":"https:\/\/www.facebook.com\/qahar.ART","identifier":"100005641845983"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1329745075196086","dateCreated":"2025-10-28T14:07:04-0700","text":"Good job \ud83d\udc4d","mentions":null,"author":{"\u0040type":"Person","name":"Mk Sumon","url":"https:\/\/www.facebook.com\/mksumon349750","identifier":"61554196091321"},"upvoteCount":5}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_aid=0&_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_Afel5Re7ZzTNVk6RkcmWKml9FQEPpxJtFoQNQLCO44CbMw&oe=69094613","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049149667102&set=a.736550611850295&type=3"}],"inLanguage":"en"}</script></div><div class="_xcx" id="u_1_1f_it" style="top:164px; left:110px; width: 107px; height: 107px;"><div class="uiScaledImageContainer" style="width:107px;height:107px;"><img class="scaledImageFitWidth img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_s133x133_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&amp;_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Affbdi1Khm0QpvFl0Eaxv4mIL7lsmVGZy_XQ3PRgqlFCXg&amp;oe=690947F9" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_s133x133_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&amp;_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Affbdi1Khm0QpvFl0Eaxv4mIL7lsmVGZy_XQ3PRgqlFCXg&amp;oe=690947F9" alt="A carved pumpkin featuring a screeching face." width="107" height="135" caption="A carved pumpkin featuring a screeching face."></div><script type="application/ld+json" nonce="">{"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T12:02:03-0700","identifier":"1325049233000427","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049233000427\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":24},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":167},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":2},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":24,"comment":[{"\u0040type":"Comment","identifier":"1422366162579156","dateCreated":"2025-10-28T14:16:57-0700","text":"Nice job on the pumpkin head! \ud83d\ude43\ud83d\ude09","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"786626550848543","dateCreated":"2025-10-28T18:03:09-0700","text":"Looks like Biden?!","mentions":null,"author":{"\u0040type":"Person","name":"Jane Richardson","url":"https:\/\/www.facebook.com\/jane.richardson.697158","identifier":"100075208107391"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1139914211657551","dateCreated":"2025-10-28T19:58:16-0700","text":"Isn't that sting during live aid?","mentions":null,"author":{"\u0040type":"Person","name":"Timothy Godfree","url":null,"identifier":"776935639"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1996665227574891","dateCreated":"2025-10-29T12:02:02-0700","text":"They're coming to take our jerbs!","mentions":null,"author":{"\u0040type":"Person","name":"Matthew Smothers","url":"https:\/\/www.facebook.com\/MattieSmoSmo","identifier":"100001069361290"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1154337050006322","dateCreated":"2025-10-29T05:52:41-0700","text":"Op","mentions":null,"author":{"\u0040type":"Person","name":"Gabbar A","url":"https:\/\/www.facebook.com\/people\/Gabbar-A\/pfbid02NGkJXvnKG96G9vEhLXpNb644YPCqca32c3HoFdwXNhfoYGh3efsML47AZAX5YWuEl\/","identifier":"61571569513471"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"2567790973596649","dateCreated":"2025-10-28T14:13:17-0700","text":"And that's DJT","mentions":null,"author":{"\u0040type":"Person","name":"Oliviana Atkinson","url":"https:\/\/www.facebook.com\/olivianaatkinson","identifier":"100000797423934"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1530763301261723","dateCreated":"2025-10-28T15:28:48-0700","text":"oooh yes god job","mentions":null,"author":{"\u0040type":"Person","name":"Rosalia Inot Mulle","url":"https:\/\/www.facebook.com\/rosalia.inot.mulle.2024","identifier":"61556740530625"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1337622447544051","dateCreated":"2025-10-28T15:13:26-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Manav Bapari","url":"https:\/\/www.facebook.com\/sujan.bapare.940","identifier":"100028488363879"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1176067807735583","dateCreated":"2025-10-28T14:33:08-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Al Mamun","url":null,"identifier":"100009918794542"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1394272175455456","dateCreated":"2025-10-28T20:10:58-0700","text":"EXCLUSIVE FACEBOOK TEAM","mentions":null,"author":{"\u0040type":"Person","name":"Susmita Payal Chatterjee","url":"https:\/\/www.facebook.com\/susmita.payal.chatterjee","identifier":"100064361685437"},"upvoteCount":1}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_AfdvnSPem78axaEVKFGkCvC2-XohIUsARyw_fKlzFe0nqQ&oe=690947F9","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049233000427&set=a.736550611850295&type=3"}],"inLanguage":"en"}
+
+                                                                                                                                                                </script>
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="_xcx" id="u_1_1c_hl" style="top:164px; left:218px; width: 107px; height: 107px;">
+                                                                                                                                                               <div class="_46-h" style="width:108px;height:107px;">
+                                                                                                                                                                <img class="_46-i img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p110x80_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_aid=0&amp;_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&amp;_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Aff7RN8bImVq53X9EOMsytqryHemPhDK-HERMbgnwILmrQ&amp;oe=69094613" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p110x80_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_aid=0&amp;_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&amp;_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Aff7RN8bImVq53X9EOMsytqryHemPhDK-HERMbgnwILmrQ&amp;oe=69094613" style="left:-1px; top:0px;" alt="A carved pumpkin featuring a graveyard under a tree." width="110" height="138" caption="A carved pumpkin featuring a graveyard under a tree.">
+                                                                                                                                                                </div>
+                                                                                                                                                                <script type="application/ld+json" nonce="">
+                                                                                                                                                                    {"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T19:47:45-0700","identifier":"1325049149667102","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049149667102\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":18},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":160},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":1},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":18,"comment":[{"\u0040type":"Comment","identifier":"1358090709173477","dateCreated":"2025-10-28T14:36:37-0700","text":"\u0e40\u0e1b\u0e47\u0e19\u0e07\u0e32\u0e19\u0e17\u0e35\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e08\u0e49\u0e2d\u0e07\u0e21\u0e2d\u0e07\u0e19\u0e32\u0e19\u0e46\u0e16\u0e36\u0e07\u0e14\u0e37\u0e48\u0e21\u0e14\u0e33\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e27\u0e22\u0e07\u0e32\u0e21Awesome","mentions":null,"author":{"\u0040type":"Person","name":"\u0e10\u0e34\u0e15\u0e34\u0e23\u0e31\u0e15\u0e19\u0e4c \u0e1e\u0e34\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c","url":"https:\/\/www.facebook.com\/taweeti","identifier":"100003317485606"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1491506992156395","dateCreated":"2025-10-28T20:10:22-0700","text":"BEAUTIFUL","mentions":null,"author":{"\u0040type":"Person","name":"Susmita Payal Chatterjee","url":"https:\/\/www.facebook.com\/susmita.payal.chatterjee","identifier":"100064361685437"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1524465368893910","dateCreated":"2025-10-28T14:16:22-0700","text":"Wow, that's amazing! \ud83d\ude2e","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"853517567138456","dateCreated":"2025-10-28T19:18:39-0700","text":"No way it's                        Moix AhMad Shin Ma  \ud83d\ude20\ud83e\udd28\ud83e\udd2b\ud83c\udf34\ud83c\udf04","mentions":[{"\u0040type":"Thing","name":"Moix AhMad Shin Ma"}],"author":{"\u0040type":"Person","name":"Hajjatullah Siraaj Muhammad","url":"https:\/\/www.facebook.com\/SiraajShah666777","identifier":"100086429844417"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"858057766905411","dateCreated":"2025-10-28T15:52:53-0700","text":"wow nice","mentions":null,"author":{"\u0040type":"Person","name":"Prescitita Gura Beray","url":"https:\/\/www.facebook.com\/prescitita.gura.beray.2025","identifier":"100091060107495"},"upvoteCount":2},{"\u0040type":"Comment","identifier":"1778593616123919","dateCreated":"2025-10-28T15:48:02-0700","text":"Good job \ud83d\udc4f","mentions":null,"author":{"\u0040type":"Person","name":"Josephine Cutamora Vallespin Arce","url":"https:\/\/www.facebook.com\/josephine.arce.75","identifier":"100006955083608"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"803593329184931","dateCreated":"2025-10-28T14:33:35-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Al Mamun","url":null,"identifier":"100009918794542"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1675657063838877","dateCreated":"2025-10-28T15:13:47-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Manav Bapari","url":"https:\/\/www.facebook.com\/sujan.bapare.940","identifier":"100028488363879"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1218368957175524","dateCreated":"2025-10-28T14:00:22-0700","text":"1","mentions":null,"author":{"\u0040type":"Person","name":"Wenagr Qahar","url":"https:\/\/www.facebook.com\/qahar.ART","identifier":"100005641845983"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1329745075196086","dateCreated":"2025-10-28T14:07:04-0700","text":"Good job \ud83d\udc4d","mentions":null,"author":{"\u0040type":"Person","name":"Mk Sumon","url":"https:\/\/www.facebook.com\/mksumon349750","identifier":"61554196091321"},"upvoteCount":5}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/572483597_1325051423000208_4087623709153582267_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_aid=0&_nc_ohc=Oi4GcKMVFF8Q7kNvwG_3zGB&_nc_oc=AdmpEgW6BSJpqur0tbpm1a828ZIHYWNo_l9D26CZHH11IMfeZZr0WVMoXn1xoaF2cVc&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_Afel5Re7ZzTNVk6RkcmWKml9FQEPpxJtFoQNQLCO44CbMw&oe=69094613","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049149667102&set=a.736550611850295&type=3"}],"inLanguage":"en"}
+                                                                                                                                                                    </script>
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="_xcx" id="u_1_1f_it" style="top:164px; left:110px; width: 107px; height: 107px;">
+                                                                                                                                                                    <div class="uiScaledImageContainer" style="width:107px;height:107px;">
+                                                                                                                                                                        <img class="scaledImageFitWidth img" src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_s133x133_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&amp;_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Affbdi1Khm0QpvFl0Eaxv4mIL7lsmVGZy_XQ3PRgqlFCXg&amp;oe=690947F9" data-src="https://scontent.fitm4-1.fna.fbcdn.net/v/t39.30808-6/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_s133x133_tt6&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=e21142&amp;_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&amp;_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&amp;_nc_zt=23&amp;_nc_ht=scontent.fitm4-1.fna&amp;_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&amp;oh=00_Affbdi1Khm0QpvFl0Eaxv4mIL7lsmVGZy_XQ3PRgqlFCXg&amp;oe=690947F9" alt="A carved pumpkin featuring a screeching face." width="107" height="135" caption="A carved pumpkin featuring a screeching face.">
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <script type="application/ld+json" nonce>
+                                                                                                                                                                            {"\u0040context":"https:\/\/schema.org","\u0040type":"SocialMediaPosting","dateCreated":"2025-10-28T13:59:38-0700","dateModified":"2025-10-29T12:02:03-0700","identifier":"1325049233000427","url":"https:\/\/www.facebook.com\/facebook\/posts\/1325049233000427\/","isPartOf":"https:\/\/www.facebook.com\/facebook","headline":"Facebook - Facebook\u3055\u3093\u304c\u5199\u771f\u3092\u8ffd\u52a0\u3057\u307e\u3057\u305f","interactionStatistic":[{"\u0040type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":24},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/LikeAction","userInteractionCount":167},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":2},{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}],"commentCount":24,"comment":[{"\u0040type":"Comment","identifier":"1422366162579156","dateCreated":"2025-10-28T14:16:57-0700","text":"Nice job on the pumpkin head! \ud83d\ude43\ud83d\ude09","mentions":null,"author":{"\u0040type":"Person","name":"Roberto Orlandez","url":"https:\/\/www.facebook.com\/roberto.orlandez.56","identifier":"100067889854106"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"786626550848543","dateCreated":"2025-10-28T18:03:09-0700","text":"Looks like Biden?!","mentions":null,"author":{"\u0040type":"Person","name":"Jane Richardson","url":"https:\/\/www.facebook.com\/jane.richardson.697158","identifier":"100075208107391"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1139914211657551","dateCreated":"2025-10-28T19:58:16-0700","text":"Isn't that sting during live aid?","mentions":null,"author":{"\u0040type":"Person","name":"Timothy Godfree","url":null,"identifier":"776935639"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1996665227574891","dateCreated":"2025-10-29T12:02:02-0700","text":"They're coming to take our jerbs!","mentions":null,"author":{"\u0040type":"Person","name":"Matthew Smothers","url":"https:\/\/www.facebook.com\/MattieSmoSmo","identifier":"100001069361290"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1154337050006322","dateCreated":"2025-10-29T05:52:41-0700","text":"Op","mentions":null,"author":{"\u0040type":"Person","name":"Gabbar A","url":"https:\/\/www.facebook.com\/people\/Gabbar-A\/pfbid02NGkJXvnKG96G9vEhLXpNb644YPCqca32c3HoFdwXNhfoYGh3efsML47AZAX5YWuEl\/","identifier":"61571569513471"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"2567790973596649","dateCreated":"2025-10-28T14:13:17-0700","text":"And that's DJT","mentions":null,"author":{"\u0040type":"Person","name":"Oliviana Atkinson","url":"https:\/\/www.facebook.com\/olivianaatkinson","identifier":"100000797423934"},"upvoteCount":3},{"\u0040type":"Comment","identifier":"1530763301261723","dateCreated":"2025-10-28T15:28:48-0700","text":"oooh yes god job","mentions":null,"author":{"\u0040type":"Person","name":"Rosalia Inot Mulle","url":"https:\/\/www.facebook.com\/rosalia.inot.mulle.2024","identifier":"61556740530625"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1337622447544051","dateCreated":"2025-10-28T15:13:26-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Manav Bapari","url":"https:\/\/www.facebook.com\/sujan.bapare.940","identifier":"100028488363879"},"upvoteCount":0},{"\u0040type":"Comment","identifier":"1176067807735583","dateCreated":"2025-10-28T14:33:08-0700","text":"","mentions":null,"author":{"\u0040type":"Person","name":"Al Mamun","url":null,"identifier":"100009918794542"},"upvoteCount":1},{"\u0040type":"Comment","identifier":"1394272175455456","dateCreated":"2025-10-28T20:10:58-0700","text":"EXCLUSIVE FACEBOOK TEAM","mentions":null,"author":{"\u0040type":"Person","name":"Susmita Payal Chatterjee","url":"https:\/\/www.facebook.com\/susmita.payal.chatterjee","identifier":"100064361685437"},"upvoteCount":1}],"author":{"\u0040type":"Organization","name":"Facebook","identifier":"100064860875397","url":"https:\/\/www.facebook.com\/facebook","image":null,"sameAs":["http:\/\/fb.me\/HowToContactFB"],"address":null,"foundingDate":"2007-11-07T14:51:32-0800","interactionStatistic":{"\u0040type":"InteractionCounter","interactionType":"http:\/\/schema.org\/FollowAction","userInteractionCount":155369946}},"image":[{"\u0040type":"ImageObject","name":null,"width":960,"height":1200,"contentUrl":"https:\/\/scontent.fitm4-1.fna.fbcdn.net\/v\/t39.30808-6\/573300319_1325051446333539_8563406723286187518_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=j8p4RU79pTsQ7kNvwEk2n1e&_nc_oc=Adm32mo6AnXayD0YMsPcHztGHuIhWu2KKkouWNe3LwuFGouX3xuno747jzDbVb54AnM&_nc_zt=23&_nc_ht=scontent.fitm4-1.fna&_nc_gid=iGhe09AIwLIUVTo0nfLc4Q&oh=00_AfdvnSPem78axaEVKFGkCvC2-XohIUsARyw_fKlzFe0nqQ&oe=690947F9","caption":"","representativeOfPage":true,"url":"https:\/\/www.facebook.com\/photo.php?fbid=1325049233000427&set=a.736550611850295&type=3"}],"inLanguage":"en"}</script></div>
+                                                                                                                                                               
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+   </section>
+    </aside>
+  </div>
+  </body>
+</html>
